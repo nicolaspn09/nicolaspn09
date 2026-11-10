@@ -1,17 +1,13 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/banner-light.svg">
-    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/banner-dark.svg" width="100%" alt="Nícolas Paulo Nasário - Senior AI & Automation Engineer">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-light.svg">
+    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-dark.svg" width="100%" alt="Nícolas Paulo Nasário - Senior AI & Automation Engineer">
   </picture>
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/n%C3%ADcolas-paulo-nas%C3%A1rio-084045321" target="_blank"><img src="assets/btn-linkedin.svg" height="38" alt="LinkedIn"></a>
-  &nbsp;
-  <a href="mailto:nicolaspn09@gmail.com"><img src="assets/btn-email.svg" height="38" alt="E-mail"></a>
-  &nbsp;
-  <a href="https://wa.me/5548999044726" target="_blank"><img src="assets/btn-whatsapp.svg" height="38" alt="WhatsApp"></a>
+  <a href="https://www.linkedin.com/in/n%C3%ADcolas-paulo-nas%C3%A1rio-084045321" target="_blank"><img src="assets/btn-linkedin.svg" height="42" alt="Conectar no LinkedIn"></a>
 </p>
 
 Engenheiro de Software e Automação sênior focado na intersecção entre **Inteligência Artificial Agêntica**, **RPA de Missão Crítica** e **Arquiteturas Backend Resilientes em Python**.
@@ -116,9 +112,9 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/workflow-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/workflow-light.svg">
-    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/workflow-dark.svg" width="100%" alt="Pipeline de Engenharia Agêntica da especificação ao deploy">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/workflow-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/workflow-light.svg">
+    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/workflow-dark.svg" width="100%" alt="Pipeline de Engenharia Agêntica da especificação ao deploy">
   </picture>
 </div>
 
@@ -141,20 +137,22 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
 
 ---
 
-## 📊 Telemetria & GitHub
+## 📊 Telemetria & Métricas do Sistema
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nicolaspn09&show_icons=true&theme=tokyonight&hide_border=true&bg_color=080c14&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&locale=pt-br" alt="Estatísticas do GitHub" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolaspn09&layout=compact&theme=tokyonight&hide_border=true&bg_color=080c14&title_color=38bdf8&text_color=94a3b8&locale=pt-br" alt="Linguagens Mais Utilizadas" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/stats-light.svg">
+    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/stats-dark.svg" width="100%" alt="Telemetria e Métricas do GitHub">
+  </picture>
 </div>
 
 <br>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/footer-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/footer-light.svg">
-    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/HEAD/assets/footer-dark.svg" width="100%" alt="This is the Way.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-light.svg">
+    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-dark.svg" width="100%" alt="This is the Way.">
   </picture>
 </div>

@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" width="1100" height="360" role="img" aria-labelledby="wf-t-l wf-d-l">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 370" width="1100" height="370" role="img" aria-labelledby="wf-t-l wf-d-l">
   <title id="wf-t-l">Metodologia de Engenharia Agêntica &amp; Automação Defensiva</title>
   <desc id="wf-d-l">Pipeline de cinco etapas da especificação arquitetural ao deploy conteinerizado com telemetria.</desc>
   <defs>
-    <linearGradient id="box-grad-l" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="card-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
       <stop offset="100%" stop-color="#f8fafc" />
     </linearGradient>
@@ -13,83 +13,122 @@
     .font-mono { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
   </style>
 
-  <rect width="1100" height="360" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+  <rect width="1100" height="370" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
 
   <!-- Header -->
-  <text class="font-hud" x="40" y="45" fill="#0f172a" font-size="18" font-weight="700" letter-spacing="1">
+  <text class="font-hud" x="40" y="42" fill="#0f172a" font-size="16" font-weight="700" letter-spacing="1">
     PIPELINE DE ENGENHARIA AGÊNTICA &amp; DEFENSIVA
   </text>
-  <text class="font-mono" x="780" y="45" fill="#64748b" font-size="11" letter-spacing="1">
-    // SPEC-DRIVEN DEVELOPMENT ARCHITECTURE
+  <text class="font-mono" x="760" y="42" fill="#64748b" font-size="11" letter-spacing="1">
+    // SPEC-DRIVEN DEVELOPMENT WORKFLOW
   </text>
-  <line x1="40" y1="65" x2="1060" y2="65" stroke="#e2e8f0" stroke-width="1" />
+  <line x1="40" y1="60" x2="1060" y2="60" stroke="#e2e8f0" stroke-width="1" />
 
-  <!-- Stages (5 Cards) -->
-  <g transform="translate(40, 85)">
-    <rect width="185" height="235" rx="8" fill="url(#box-grad-l)" stroke="#0284c7" stroke-width="1.5" />
-    <rect x="0" y="0" width="185" height="6" rx="3" fill="#0284c7" />
-    <text class="font-mono" x="14" y="32" fill="#0284c7" font-size="12" font-weight="700">FASE 01</text>
-    <text class="font-hud" x="14" y="58" fill="#0f172a" font-size="15" font-weight="700">Especificação &amp;<br/>PRD de Contrato</text>
-    <text class="font-hud" x="14" y="105" fill="#475569" font-size="12">
-      Modelagem de dados, contratos de API estritos, isolamento de escopo e casos de borda.
+  <!-- Card 1 -->
+  <g transform="translate(40, 78)">
+    <rect width="185" height="260" rx="8" fill="url(#card-grad-light)" stroke="#0284c7" stroke-width="1.5" />
+    <rect x="0" y="0" width="185" height="5" rx="2" fill="#0284c7" />
+    <text class="font-mono" x="14" y="28" fill="#0284c7" font-size="11" font-weight="700">FASE 01</text>
+    <text class="font-hud" x="14" y="52" fill="#0f172a" font-size="14" font-weight="700">
+      <tspan x="14" dy="0">Especificação &amp;</tspan>
+      <tspan x="14" dy="18">PRD de Contrato</tspan>
     </text>
-    <rect x="14" y="195" width="110" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
-    <text class="font-mono" x="22" y="210" fill="#0284c7" font-size="9" font-weight="600">HUMANO-LIDERADO</text>
+    <text class="font-hud" x="14" y="102" fill="#475569" font-size="11">
+      <tspan x="14" dy="0">Modelagem estrita de</tspan>
+      <tspan x="14" dy="16">dados, contratos de API,</tspan>
+      <tspan x="14" dy="16">isolamento de escopo</tspan>
+      <tspan x="14" dy="16">e mapeamento de</tspan>
+      <tspan x="14" dy="16">casos de borda.</tspan>
+    </text>
+    <rect x="14" y="215" width="120" height="24" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+    <text class="font-mono" x="22" y="231" fill="#0284c7" font-size="9" font-weight="600">HUMANO-LIDERADO</text>
   </g>
 
-  <path d="M 235 200 L 255 200" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
+  <path d="M 235 205 L 255 205" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
 
-  <g transform="translate(255, 85)">
-    <rect width="185" height="235" rx="8" fill="url(#box-grad-l)" stroke="#cbd5e1" stroke-width="1.5" />
-    <rect x="0" y="0" width="185" height="6" rx="3" fill="#0284c7" />
-    <text class="font-mono" x="14" y="32" fill="#0284c7" font-size="12" font-weight="700">FASE 02</text>
-    <text class="font-hud" x="14" y="58" fill="#0f172a" font-size="15" font-weight="700">Ferramentas &amp;<br/>MCP Servers</text>
-    <text class="font-hud" x="14" y="105" fill="#475569" font-size="12">
-      Criação de protocolos MCP, sandboxing de tools, controle de memória e redução de alucinação.
+  <!-- Card 2 -->
+  <g transform="translate(255, 78)">
+    <rect width="185" height="260" rx="8" fill="url(#card-grad-light)" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="0" y="0" width="185" height="5" rx="2" fill="#0284c7" />
+    <text class="font-mono" x="14" y="28" fill="#0284c7" font-size="11" font-weight="700">FASE 02</text>
+    <text class="font-hud" x="14" y="52" fill="#0f172a" font-size="14" font-weight="700">
+      <tspan x="14" dy="0">Ferramentas &amp;</tspan>
+      <tspan x="14" dy="18">MCP Servers</tspan>
     </text>
-    <rect x="14" y="195" width="110" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
-    <text class="font-mono" x="22" y="210" fill="#475569" font-size="9" font-weight="600">TOOL CALLING</text>
+    <text class="font-hud" x="14" y="102" fill="#475569" font-size="11">
+      <tspan x="14" dy="0">Criação de protocolos</tspan>
+      <tspan x="14" dy="16">MCP, sandboxing de</tspan>
+      <tspan x="14" dy="16">tools, isolamento de</tspan>
+      <tspan x="14" dy="16">memória e redução</tspan>
+      <tspan x="14" dy="16">de alucinação.</tspan>
+    </text>
+    <rect x="14" y="215" width="110" height="24" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+    <text class="font-mono" x="22" y="231" fill="#475569" font-size="9" font-weight="600">TOOL CALLING</text>
   </g>
 
-  <path d="M 450 200 L 470 200" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
+  <path d="M 450 205 L 470 205" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
 
-  <g transform="translate(470, 85)">
-    <rect width="185" height="235" rx="8" fill="url(#box-grad-l)" stroke="#0284c7" stroke-width="1.5" />
-    <rect x="0" y="0" width="185" height="6" rx="3" fill="#0284c7" />
-    <text class="font-mono" x="14" y="32" fill="#0284c7" font-size="12" font-weight="700">FASE 03</text>
-    <text class="font-hud" x="14" y="58" fill="#0f172a" font-size="15" font-weight="700">Orquestração<br/>Multiagente</text>
-    <text class="font-hud" x="14" y="105" fill="#475569" font-size="12">
-      Pipelines com CrewAI &amp; LangGraph. Agentes executores atuam em paralelo com contexto isolado.
+  <!-- Card 3 -->
+  <g transform="translate(470, 78)">
+    <rect width="185" height="260" rx="8" fill="url(#card-grad-light)" stroke="#0284c7" stroke-width="1.5" />
+    <rect x="0" y="0" width="185" height="5" rx="2" fill="#0284c7" />
+    <text class="font-mono" x="14" y="28" fill="#0284c7" font-size="11" font-weight="700">FASE 03</text>
+    <text class="font-hud" x="14" y="52" fill="#0f172a" font-size="14" font-weight="700">
+      <tspan x="14" dy="0">Orquestração</tspan>
+      <tspan x="14" dy="18">Multiagente</tspan>
     </text>
-    <rect x="14" y="195" width="110" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
-    <text class="font-mono" x="22" y="210" fill="#0284c7" font-size="9" font-weight="600">MULTI-AGENTES</text>
+    <text class="font-hud" x="14" y="102" fill="#475569" font-size="11">
+      <tspan x="14" dy="0">Pipelines concorrentes</tspan>
+      <tspan x="14" dy="16">em CrewAI &amp; LangGraph.</tspan>
+      <tspan x="14" dy="16">Agentes atuam com</tspan>
+      <tspan x="14" dy="16">contexto isolado e</tspan>
+      <tspan x="14" dy="16">tarefas atômicas.</tspan>
+    </text>
+    <rect x="14" y="215" width="115" height="24" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+    <text class="font-mono" x="22" y="231" fill="#0284c7" font-size="9" font-weight="600">MULTI-AGENTES</text>
   </g>
 
-  <path d="M 665 200 L 685 200" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
+  <path d="M 665 205 L 685 205" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
 
-  <g transform="translate(685, 85)">
-    <rect width="185" height="235" rx="8" fill="url(#box-grad-l)" stroke="#cbd5e1" stroke-width="1.5" />
-    <rect x="0" y="0" width="185" height="6" rx="3" fill="#059669" />
-    <text class="font-mono" x="14" y="32" fill="#059669" font-size="12" font-weight="700">FASE 04</text>
-    <text class="font-hud" x="14" y="58" fill="#0f172a" font-size="15" font-weight="700">Guardrails &amp;<br/>Evals Defensivos</text>
-    <text class="font-hud" x="14" y="105" fill="#475569" font-size="12">
-      Validação de esquemas Pydantic, verificação de consistência, testes de carga e revisão humana.
+  <!-- Card 4 -->
+  <g transform="translate(685, 78)">
+    <rect width="185" height="260" rx="8" fill="url(#card-grad-light)" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="0" y="0" width="185" height="5" rx="2" fill="#059669" />
+    <text class="font-mono" x="14" y="28" fill="#059669" font-size="11" font-weight="700">FASE 04</text>
+    <text class="font-hud" x="14" y="52" fill="#0f172a" font-size="14" font-weight="700">
+      <tspan x="14" dy="0">Guardrails &amp;</tspan>
+      <tspan x="14" dy="18">Evals Defensivos</tspan>
     </text>
-    <rect x="14" y="195" width="110" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
-    <text class="font-mono" x="22" y="210" fill="#059669" font-size="9" font-weight="600">TEST &amp; REVISÃO</text>
+    <text class="font-hud" x="14" y="102" fill="#475569" font-size="11">
+      <tspan x="14" dy="0">Validação Pydantic,</tspan>
+      <tspan x="14" dy="16">checagem semântica,</tspan>
+      <tspan x="14" dy="16">subagentes revisores</tspan>
+      <tspan x="14" dy="16">e testes de carga</tspan>
+      <tspan x="14" dy="16">em produção.</tspan>
+    </text>
+    <rect x="14" y="215" width="115" height="24" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+    <text class="font-mono" x="22" y="231" fill="#059669" font-size="9" font-weight="600">TEST &amp; REVISÃO</text>
   </g>
 
-  <path d="M 880 200 L 900 200" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
+  <path d="M 880 205 L 900 205" stroke="#0284c7" stroke-width="2" stroke-dasharray="3,3" />
 
-  <g transform="translate(900, 85)">
-    <rect width="160" height="235" rx="8" fill="url(#box-grad-l)" stroke="#cbd5e1" stroke-width="1.5" />
-    <rect x="0" y="0" width="160" height="6" rx="3" fill="#d97706" />
-    <text class="font-mono" x="14" y="32" fill="#d97706" font-size="12" font-weight="700">FASE 05</text>
-    <text class="font-hud" x="14" y="58" fill="#0f172a" font-size="15" font-weight="700">Deploy &amp;<br/>Telemetria</text>
-    <text class="font-hud" x="14" y="105" fill="#475569" font-size="12">
-      Docker containers, filas assíncronas, métricas e tracing estruturado em produção.
+  <!-- Card 5 -->
+  <g transform="translate(900, 78)">
+    <rect width="160" height="260" rx="8" fill="url(#card-grad-light)" stroke="#cbd5e1" stroke-width="1.5" />
+    <rect x="0" y="0" width="160" height="5" rx="2" fill="#d97706" />
+    <text class="font-mono" x="14" y="28" fill="#d97706" font-size="11" font-weight="700">FASE 05</text>
+    <text class="font-hud" x="14" y="52" fill="#0f172a" font-size="14" font-weight="700">
+      <tspan x="14" dy="0">Deploy &amp;</tspan>
+      <tspan x="14" dy="18">Telemetria</tspan>
     </text>
-    <rect x="14" y="195" width="100" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
-    <text class="font-mono" x="22" y="210" fill="#d97706" font-size="9" font-weight="600">CI/CD &amp; PROD</text>
+    <text class="font-hud" x="14" y="102" fill="#475569" font-size="11">
+      <tspan x="14" dy="0">Docker containers,</tspan>
+      <tspan x="14" dy="16">filas assíncronas,</tspan>
+      <tspan x="14" dy="16">logs estruturados e</tspan>
+      <tspan x="14" dy="16">observabilidade em</tspan>
+      <tspan x="14" dy="16">tempo real.</tspan>
+    </text>
+    <rect x="14" y="215" width="105" height="24" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+    <text class="font-mono" x="22" y="231" fill="#d97706" font-size="9" font-weight="600">CI/CD &amp; PROD</text>
   </g>
 </svg>

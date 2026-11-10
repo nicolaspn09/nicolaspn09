@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 200" width="1100" height="200" role="img">
+  <defs>
+    <linearGradient id="st-light-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+  </defs>
+  <style>
+    .font-hud { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; }
+  </style>
+
+  <rect width="1100" height="200" rx="14" fill="url(#st-light-grad)" stroke="#cbd5e1" stroke-width="1.5" />
+
+  <path d="M 12 30 L 12 12 L 30 12" fill="none" stroke="#0284c7" stroke-width="2" />
+  <path d="M 1070 12 L 1088 12 L 1088 30" fill="none" stroke="#0284c7" stroke-width="2" />
+  <path d="M 12 170 L 12 188 L 30 188" fill="none" stroke="#0284c7" stroke-width="2" />
+  <path d="M 1070 188 L 1088 188 L 1088 170" fill="none" stroke="#0284c7" stroke-width="2" />
+
+  <g transform="translate(60, 45)">
+    <text class="font-mono" x="0" y="0" fill="#64748b" font-size="11" letter-spacing="1.5">CONTRIBUIÇÕES EM 2026</text>
+    <text class="font-hud" x="0" y="45" fill="#0284c7" font-size="42" font-weight="900" letter-spacing="1">940+</text>
+    <text class="font-hud" x="0" y="75" fill="#475569" font-size="12">Consistência diária de commits em produção</text>
+  </g>
+
+  <line x1="320" y1="35" x2="320" y2="165" stroke="#e2e8f0" stroke-width="1" />
+
+  <g transform="translate(360, 45)">
+    <text class="font-mono" x="0" y="0" fill="#64748b" font-size="11" letter-spacing="1.5">REPOSITÓRIOS NO AR</text>
+    <text class="font-hud" x="0" y="45" fill="#0f172a" font-size="42" font-weight="900" letter-spacing="1">118</text>
+    <text class="font-hud" x="0" y="75" fill="#475569" font-size="12">Soluções de IA, RPA, APIs e microserviços</text>
+  </g>
+
+  <line x1="600" y1="35" x2="600" y2="165" stroke="#e2e8f0" stroke-width="1" />
+
+  <g transform="translate(640, 45)">
+    <text class="font-mono" x="0" y="0" fill="#64748b" font-size="11" letter-spacing="1.5">CORE ECOSYSTEM</text>
+    <text class="font-hud" x="0" y="45" fill="#059669" font-size="42" font-weight="900" letter-spacing="1">Python</text>
+    <text class="font-hud" x="0" y="75" fill="#475569" font-size="12">&gt; 85% do código: IA, RPA e Backend de Alta Escala</text>
+  </g>
+
+  <line x1="860" y1="35" x2="860" y2="165" stroke="#e2e8f0" stroke-width="1" />
+
+  <g transform="translate(895, 45)">
+    <text class="font-mono" x="0" y="0" fill="#64748b" font-size="11" letter-spacing="1.5">OPERATIONAL STATUS</text>
+    <text class="font-hud" x="0" y="45" fill="#0284c7" font-size="34" font-weight="900" letter-spacing="1">ACTIVE</text>
+    <text class="font-hud" x="0" y="75" fill="#475569" font-size="12">Pronto para novos desafios técnicos sênior</text>
+  </g>
+</svg>
