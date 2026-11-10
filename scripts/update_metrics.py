@@ -24,7 +24,7 @@ def update_svg(file_path, year, repos_count, contribs_text):
     # Update contribs text if provided
     if contribs_text:
         content = re.sub(
-            r'(<text class="font-hud"[^>]*>)\d+\+?(</text>\s*<text class="font-hud"[^>]*>Consistência)',
+            r'(<text class="font-hud"[^>]*>)\d+\+?(</text>\s*<text class="font-hud"[^>]*>Commits contínuos)',
             rf'\g<1>{contribs_text}\g<2>',
             content
         )
