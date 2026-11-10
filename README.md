@@ -118,6 +118,7 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
   </picture>
 </div>
 
+* **Agentes Autônomos com Memória Persistente:** Operação avançada com **Hermes Agent (Nous Research)** e **LangGraph**, aplicando retenção de memória de longo prazo, isolamento de estado e tool-calling determinístico.
 * **Desenvolvimento Guiado por Especificação (Spec-Driven):** Modelagem rigorosa de dados (Pydantic), contratos de API e definição explícita de casos de borda antes de qualquer execução de LLM.
 * **Protocolos MCP (Model Context Protocol):** Construção e conexão de servidores MCP customizados para isolamento de contexto, controle de memória persistente e acesso seguro a bases e APIs externas.
 * **Orquestração Multiagente Concorrente:** Pipelines com **CrewAI** e **LangGraph**, estruturando agentes especialistas com responsabilidades atômicas para evitar saturação de janela de contexto.
@@ -129,7 +130,7 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
 
 | Domínio | Ferramentas & Tecnologias |
 | :--- | :--- |
-| **Inteligência Artificial & Agentes** | <code>CrewAI</code> <code>LangChain</code> <code>LangGraph</code> <code>Anthropic&nbsp;Claude</code> <code>OpenAI&nbsp;API</code> <code>MCP&nbsp;(Model&nbsp;Context&nbsp;Protocol)</code> <code>RAG&nbsp;Híbrido</code> <code>Ollama</code> <code>Vector&nbsp;DBs</code> |
+| **Inteligência Artificial & Agentes** | <code>Hermes&nbsp;Agent</code> <code>CrewAI</code> <code>LangChain</code> <code>LangGraph</code> <code>Anthropic&nbsp;Claude</code> <code>OpenAI&nbsp;API</code> <code>MCP&nbsp;(Model&nbsp;Context&nbsp;Protocol)</code> <code>RAG&nbsp;Híbrido</code> <code>Ollama</code> <code>Vector&nbsp;DBs</code> |
 | **Backend & Engenharia de Dados** | <code>Python&nbsp;3.11+</code> <code>FastAPI</code> <code>Django</code> <code>PostgreSQL</code> <code>Redis</code> <code>Celery</code> <code>Pandas</code> <code>Pydantic</code> <code>SQLAlchemy</code> |
 | **Automação & RPA de Missão Crítica** | <code>Selenium</code> <code>Playwright</code> <code>undetected-chromedriver</code> <code>PyAutoGUI</code> <code>PyGetWindow</code> <code>BeautifulSoup</code> <code>Certificados&nbsp;A1/A3</code> <code>eCAC/Fiscal</code> |
 | **Infraestrutura, DevOps & Mensageria** | <code>Docker</code> <code>Docker&nbsp;Compose</code> <code>Linux&nbsp;(Ubuntu&nbsp;VPS)</code> <code>Git&nbsp;/&nbsp;GitHub&nbsp;Actions</code> <code>Nginx</code> <code>Evolution&nbsp;API&nbsp;(WhatsApp)</code> |
