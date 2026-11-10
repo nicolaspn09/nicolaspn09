@@ -38,22 +38,40 @@ I design and operate production-grade systems that combine the deterministic rig
   <thead>
     <tr>
       <td colspan="2">
-        <b>Fundação Arquitetural:</b> Python 3.11+, FastAPI, PostgreSQL, Redis, Celery e Docker. Orquestração multiagente com CrewAI, LangGraph e LangChain. Mensageria assíncrona com Evolution API (WhatsApp), observabilidade estruturada e guardrails defensivos anti-alucinação.
+        <b>Fundação Arquitetural:</b> Python 3.11+, FastAPI, PostgreSQL, Redis, Celery e Docker. Orquestração com Hermes Agent, CrewAI e LangGraph. RAG Híbrido em bases regulatórias complexas, mensageria assíncrona com Evolution API (WhatsApp) e guardrails defensivos anti-alucinação.
       </td>
     </tr>
     <tr>
-      <th width="30%">Sistema / Solução</th>
-      <th width="70%">Escopo, Arquitetura &amp; Impacto</th>
+      <th width="32%">Sistema / Solução</th>
+      <th width="68%">Escopo, Arquitetura &amp; Impacto</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <b><a href="https://github.com/nicolaspn09/analise-isencao-reforma-tributaria">Análise de Reforma Tributária</a></b><br>
+        <b><a href="https://lecionaai.com.br" target="_blank">LecionaAI — SaaS de IA</a></b> <small>(<a href="https://github.com/nicolaspn09/assistente-ia-rag-educacao">Repo</a>)</small><br>
+        <code>FastAPI</code> <code>PostgreSQL</code> <code>RAG</code> <code>Docker</code> <code>LLMs</code>
+      </td>
+      <td>
+        Plataforma SaaS full-stack em produção (<a href="https://lecionaai.com.br" target="_blank">lecionaai.com.br</a>) para o ecossistema educacional. Backend em FastAPI com autenticação JWT, integração com LLMs para elaboração automática de planos de aula e avaliações alinhadas à BNCC, além de RAG especializado para suporte a necessidades educacionais inclusivas.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://github.com/nicolaspn09/agente-reforma-tributaria">Consultor RAG Reforma Tributária</a></b> <small>(<a href="https://agente-reforma-tributaria.streamlit.app" target="_blank">Live Demo</a>)</small><br>
+        <code>RAG Híbrido</code> <code>LCP 214/2025</code> <code>Streamlit</code> <code>Vector DB</code>
+      </td>
+      <td>
+        Arquitetura RAG de alta fidelidade baseada na regulamentação da LCP 214/2025 e EC 132. Combinação de busca semântica em banco vetorial com guardrails determinísticos para consulta fiscal sem alucinação de alíquotas ou regras tributárias complexas. Possui interface interativa em produção no Streamlit.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://github.com/nicolaspn09/analise-isencao-reforma-tributaria">Análise Fiscal &amp; Isenção de Impostos</a></b><br>
         <code>Python</code> <code>OpenAI</code> <code>Oracle ERP</code> <code>Excel</code>
       </td>
       <td>
-        Automação analítica para cruzamento de dados fiscais sob a nova legislação tributária brasileira. Integração com banco Oracle e planilhas complexas, aplicando LLMs com engenharia de prompts defensiva para classificação de itens e envio automatizado de relatórios de auditoria.
+        Automação analítica para cruzamento de dados fiscais sob a nova legislação tributária. Integração direta com ERP Oracle e planilhas complexas, aplicando engenharia de prompts defensiva para classificação de itens e disparo de relatórios automatizados de auditoria.
       </td>
     </tr>
     <tr>
@@ -62,7 +80,7 @@ I design and operate production-grade systems that combine the deterministic rig
         <code>Docker</code> <code>Evolution API</code> <code>LangChain</code> <code>Redis</code>
       </td>
       <td>
-        Gateway corporativo conteinerizado para atendimento inteligente via WhatsApp. Processamento assíncrono de mensagens, recuperação de contexto em Redis, isolamento de sessões e execução segura de tool-calling com guardrails anti-alucinação.
+        Gateway corporativo conteinerizado em Docker para atendimento inteligente via WhatsApp. Processamento assíncrono de mensagens, recuperação de contexto de sessão em Redis e execução segura de tool-calling com guardrails anti-alucinação.
       </td>
     </tr>
     <tr>
@@ -71,7 +89,7 @@ I design and operate production-grade systems that combine the deterministic rig
         <code>CrewAI</code> <code>LangChain</code> <code>Python</code> <code>LLMs</code>
       </td>
       <td>
-        Arquitetura multiagente com divisão estrita de responsabilidades: agentes pesquisadores de tendências, redatores de roteiros técnicos e revisores de hooks e metadados, operando em esteira autônoma e validada.
+        Arquitetura multiagente com divisão estrita de responsabilidades: agentes autônomos para mineração de tendências, síntese de roteiros e revisão técnica de hooks e metadados, operando em esteira determinística e validada.
       </td>
     </tr>
     <tr>
@@ -80,25 +98,7 @@ I design and operate production-grade systems that combine the deterministic rig
         <code>Selenium</code> <code>undetected-chromedriver</code> <code>Pandas</code>
       </td>
       <td>
-        Pipeline de web scraping corporativo e inteligência de mercado em grande escala. Bypass defensivo de bloqueios anti-bot, rotação de headers, extração resiliente de precificação concorrente e modelagem de dados para BI.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b><a href="https://github.com/nicolaspn09/api-servico-precificacao">API de Precificação Dinâmica</a></b><br>
-        <code>Python</code> <code>REST API</code> <code>Microserviços</code>
-      </td>
-      <td>
-        Microsserviço de cálculo de margens, composição de custos e impostos com validação determinística de parâmetros e latência reduzida para consumo por sistemas de gestão e esteiras de e-commerce.
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <b>Automação Fiscal de Missão Crítica</b><br>
-        <code>eCAC</code> <code>Certificados A1/A3</code> <code>Workers</code> <code>PyAutoGUI</code>
-      </td>
-      <td>
-        Arquitetura corporativa para emissão e conciliação em portais governamentais de alta instabilidade (eCAC, Receita Federal e prefeituras). Pool de workers concorrentes com gestão de fila, circuit breakers e isolamento contra quedas de sessão.
+        Pipeline corporativo de web scraping e inteligência de mercado em e-commerce. Bypass defensivo de barreiras anti-bot, rotação de headers, extração em alta escala de precificação concorrente e modelagem de dados para BI.
       </td>
     </tr>
   </tbody>
