@@ -118,6 +118,8 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
   </picture>
 </div>
 
+* **Autonomous SWE Agent (Monday-to-PR Pipeline):** Esteira de desenvolvimento orientada a eventos corporativos: cards e tickets no Monday.com disparam agentes autônomos que analisam o escopo da demanda, implementam as alterações no código-fonte, geram branches dedicadas e abrem o **Pull Request (PR)** automaticamente, mantendo a revisão humana rigorosa (*Human-in-the-Loop*) antes do deploy em produção.
+* **Arquitetura Multi-Ambiente com Hermes Agent:** Operação do **Hermes Agent (Nous Research)** em ecossistema distribuído: bancada local no terminal para engenharia e testes, nó autônomo em VPS Linux para telemetria contínua e sincronização periódica de memória persistente (*Long-Term Memory*) integrada a grafo de conhecimento (Obsidian) e versionamento Git.
 * **Agentes Autônomos com Memória Persistente:** Operação avançada com **Hermes Agent (Nous Research)** e **LangGraph**, aplicando retenção de memória de longo prazo, isolamento de estado e tool-calling determinístico.
 * **Desenvolvimento Guiado por Especificação (Spec-Driven):** Modelagem rigorosa de dados (Pydantic), contratos de API e definição explícita de casos de borda antes de qualquer execução de LLM.
 * **Protocolos MCP (Model Context Protocol):** Construção e conexão de servidores MCP customizados para isolamento de contexto, controle de memória persistente e acesso seguro a bases e APIs externas.
