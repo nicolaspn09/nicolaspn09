@@ -134,7 +134,7 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
 | **Backend & Engenharia de Dados** | <code>Python&nbsp;3.11+</code> <code>FastAPI</code> <code>Django</code> <code>PostgreSQL</code> <code>Redis</code> <code>Celery</code> <code>Pandas</code> <code>Pydantic</code> <code>SQLAlchemy</code> |
 | **Automação & RPA de Missão Crítica** | <code>Selenium</code> <code>Playwright</code> <code>undetected-chromedriver</code> <code>PyAutoGUI</code> <code>PyGetWindow</code> <code>BeautifulSoup</code> <code>Certificados&nbsp;A1/A3</code> <code>eCAC/Fiscal</code> |
 | **Infraestrutura, DevOps & Mensageria** | <code>Docker</code> <code>Docker&nbsp;Compose</code> <code>Linux&nbsp;(Ubuntu&nbsp;VPS)</code> <code>Git&nbsp;/&nbsp;GitHub&nbsp;Actions</code> <code>Nginx</code> <code>Evolution&nbsp;API&nbsp;(WhatsApp)</code> |
-| **Harness, Tooling & Produtividade** | <code>Google&nbsp;Antigravity</code> <code>Cursor</code> <code>GitHub&nbsp;Copilot</code> <code>Claude&nbsp;Code</code> <code>Postman</code> |
+| **Harness, Tooling & Produtividade** | <code>Hermes&nbsp;Agent</code> <code>Google&nbsp;Antigravity</code> <code>Cursor</code> <code>GitHub&nbsp;Copilot</code> <code>Claude&nbsp;Code</code> <code>Postman</code> |
 
 ---
 
