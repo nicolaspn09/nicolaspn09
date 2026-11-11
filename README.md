@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-light.svg">
-    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-dark.svg" width="100%" alt="Nícolas Paulo Nasário - Senior AI & Automation Engineer">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-dark-v2.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-light-v2.svg">
+    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/banner-dark-v2.svg" width="100%" alt="Nícolas Paulo Nasário - Senior AI & Automation Engineer">
   </picture>
 </div>
 
@@ -167,8 +167,8 @@ Trato agentes autônomos como componentes de software distribuído: **eu defino 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-light.svg">
-    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-dark.svg" width="100%" alt="May the Force be with you.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-dark-v2.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-light-v2.svg">
+    <img src="https://raw.githubusercontent.com/nicolaspn09/nicolaspn09/main/assets/footer-dark-v2.svg" width="100%" alt="May the Force be with you.">
   </picture>
 </div>

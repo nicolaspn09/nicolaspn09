@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-labelledby="title desc">
+  <title id="title">Nícolas Paulo Nasário - Senior AI &amp; Automation Engineer</title>
+  <desc id="desc">Senior AI and Automation Engineer. Autonomous Agents, Mission-Critical RPA, and Resilient Architectures. Jedi Archives Edition.</desc>
+  <defs>
+    <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0b1325" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+    <pattern id="grid-dark" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.06" />
+    </pattern>
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <!-- Luke's Emerald Lightsaber Plasma Glow Filter -->
+    <filter id="saber-glow-hero" x="-10%" y="-150%" width="120%" height="400%">
+      <feGaussianBlur stdDeviation="5" result="glow1" />
+      <feGaussianBlur stdDeviation="2" result="glow2" />
+      <feMerge>
+        <feMergeNode in="glow1" />
+        <feMergeNode in="glow2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-hud { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="390" rx="16" fill="url(#bg-grad-dark)" />
+  <rect width="1200" height="390" rx="16" fill="url(#grid-dark)" />
+
+  <!-- Jedi Order Crest / Kyber Holocron Watermark in Background -->
+  <g transform="translate(1010, 200) scale(0.75)" opacity="0.08" stroke="#38bdf8" fill="none" stroke-width="3">
+    <circle cx="0" cy="0" r="100" stroke-dasharray="10,6" />
+    <circle cx="0" cy="0" r="70" />
+    <line x1="0" y1="-115" x2="0" y2="115" stroke-width="4" />
+    <path d="M -15 20 C -45 10, -75 -20, -75 -65 C -60 -40, -35 -25, 0 -15 C 35 -25, 60 -40, 75 -65 C 75 -20, 45 10, 15 20 Z" />
+    <path d="M -10 40 C -35 30, -55 10, -60 -15 C -45 5, -25 15, 0 20 C 25 15, 45 5, 60 -15 C 55 10, 35 30, 10 40 Z" />
+    <polygon points="0,-125 8,-105 0,-85 -8,-105" fill="#38bdf8" />
+  </g>
+
+  <!-- Outer HUD Frame -->
+  <rect x="20" y="20" width="1160" height="350" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Cyber Corner Accents -->
+  <path d="M 20 50 L 20 20 L 50 20" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1150 20 L 1180 20 L 1180 50" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 20 340 L 20 370 L 50 370" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1150 370 L 1180 370 L 1180 340" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Top Telemetry Bar with text-anchor="end" to NEVER overflow -->
+  <g class="font-mono" font-size="11" letter-spacing="1.5">
+    <circle cx="52" cy="45" r="4" fill="#10b981" filter="url(#glow-filter)" />
+    <text x="65" y="49" fill="#10b981" font-weight="600">JEDI ARCHIVES ONLINE // SYSTEMS IN EQUILIBRIUM</text>
+    <text x="1140" y="49" text-anchor="end" fill="#64748b" font-weight="500">JEDI ARCHIVES · KYBER CORE [NODE: NP-09]</text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (HERO DIVIDER BEAM)  -->
+  <!-- ======================================================== -->
+  <g transform="translate(45, 60)">
+    <!-- 1. The Hilt (Authentic Return of the Jedi Ep. VI Specs) -->
+    <!-- Pommel ring & D-ring -->
+    <rect x="0" y="4" width="7" height="10" rx="1.5" fill="#94a3b8" stroke="#475569" stroke-width="0.8" />
+    <circle cx="2" cy="9" r="1.5" fill="#334155" />
+    <!-- Grooved / Ribbed black grip body -->
+    <rect x="7" y="5" width="34" height="8" rx="1" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+    <line x1="12" y1="5" x2="12" y2="13" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="17" y1="5" x2="17" y2="13" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="22" y1="5" x2="22" y2="13" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="27" y1="5" x2="27" y2="13" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="32" y1="5" x2="32" y2="13" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="37" y1="5" x2="37" y2="13" stroke="#94a3b8" stroke-width="0.8" />
+    <!-- Activation Control Box (with brass circuit card) -->
+    <rect x="18" y="1" width="13" height="4.5" rx="0.5" fill="#b45309" stroke="#d97706" stroke-width="0.6" />
+    <line x1="20" y1="3" x2="29" y2="3" stroke="#fef08a" stroke-width="0.6" />
+    <!-- Brass / Copper Neck (Iconic Luke feature) -->
+    <rect x="41" y="6.5" width="10" height="5" rx="0.5" fill="#d97706" stroke="#92400e" stroke-width="0.8" />
+    <!-- Silver Emitter Flare -->
+    <path d="M 51 5 L 61 3 L 63 3 L 63 15 L 61 15 L 51 13 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="0.8" />
+
+    <!-- 2. Ignited Emerald Kyber Plasma Blade -->
+    <g filter="url(#saber-glow-hero)">
+      <!-- Outer Emerald Aura -->
+      <line x1="64" y1="9" x2="1105" y2="9" stroke="#10b981" stroke-width="6.5" stroke-linecap="round" opacity="0.45" />
+      <!-- Middle Neon Green Glow -->
+      <line x1="64" y1="9" x2="1105" y2="9" stroke="#22c55e" stroke-width="3.5" stroke-linecap="round" opacity="0.85" />
+      <!-- Superheated Core (White-Hot Plasma) -->
+      <line x1="64" y1="9" x2="1104" y2="9" stroke="#f0fdf4" stroke-width="1.6" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- Center Content -->
+  <!-- Name -->
+  <text class="font-hud" x="60" y="150" fill="#f8fafc" font-size="44" font-weight="900" letter-spacing="3">
+    NÍCOLAS PAULO NASÁRIO
+  </text>
+
+  <!-- Primary Title (AI FIRST) -->
+  <text class="font-hud" x="60" y="200" fill="#38bdf8" font-size="22" font-weight="700" letter-spacing="2">
+    SENIOR AI &amp; AUTOMATION ENGINEER
+  </text>
+
+  <!-- Subtitle -->
+  <text class="font-hud" x="60" y="240" fill="#94a3b8" font-size="15" font-weight="400" letter-spacing="0.5">
+    Autonomous Agentic Systems · Mission-Critical RPA · Resilient Backend Architecture
+  </text>
+
+  <!-- Quote & Philosophy -->
+  <g class="font-mono" font-size="12" fill="#64748b" letter-spacing="1">
+    <text x="60" y="275" fill="#22c55e" font-weight="600">&gt; &quot;In my experience, there is no such thing as luck.&quot;</text>
+    <text x="460" y="275" fill="#64748b">— Sincronização, idempotência e tolerância a falhas por design.</text>
+  </g>
+
+  <!-- Badges / Pill Tags -->
+  <g class="font-mono" font-size="11" font-weight="600" letter-spacing="1">
+    <!-- Tag 1 -->
+    <rect x="60" y="305" width="195" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="76" cy="320" r="3" fill="#38bdf8" />
+    <text x="88" y="325" fill="#cbd5e1">AGENT ORCHESTRATION</text>
+
+    <!-- Tag 2 -->
+    <rect x="270" y="305" width="175" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="286" cy="320" r="3" fill="#38bdf8" />
+    <text x="298" y="325" fill="#cbd5e1">CREWAI / LANGGRAPH</text>
+
+    <!-- Tag 3 -->
+    <rect x="460" y="305" width="180" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="476" cy="320" r="3" fill="#38bdf8" />
+    <text x="488" y="325" fill="#cbd5e1">MISSION-CRITICAL RPA</text>
+
+    <!-- Tag 4 -->
+    <rect x="655" y="305" width="165" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="671" cy="320" r="3" fill="#38bdf8" />
+    <text x="683" y="325" fill="#cbd5e1">MCP &amp; RAG ENGINES</text>
+
+    <!-- Tag 5 -->
+    <rect x="835" y="305" width="205" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="851" cy="320" r="3" fill="#38bdf8" />
+    <text x="863" y="325" fill="#cbd5e1">PYTHON HIGH-CONCURRENCY</text>
+  </g>
+</svg>

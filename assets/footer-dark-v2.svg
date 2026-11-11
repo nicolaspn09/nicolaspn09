@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-labelledby="f-d-t f-d-d">
+  <title id="f-d-t">May the Force be with you - Luke Skywalker Emerald Lightsaber &amp; Tatooine Binary Sunset</title>
+  <desc id="f-d-d">O sabre de luz verde de Luke Skywalker e os sóis gêmeos de Tatooine.</desc>
+  <defs>
+    <linearGradient id="ft-sky-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#091326" />
+      <stop offset="100%" stop-color="#0f1a36" />
+    </linearGradient>
+    <radialGradient id="sun1-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffedd5" />
+      <stop offset="40%" stop-color="#fbbf24" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="sun2-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef2f2" />
+      <stop offset="50%" stop-color="#f43f5e" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#be123c" stop-opacity="0" />
+    </radialGradient>
+    <!-- Luke's Green Kyber Saber Plasma Filter -->
+    <filter id="green-blade-glow-footer" x="-20%" y="-150%" width="140%" height="400%">
+      <feGaussianBlur stdDeviation="4.5" result="blur1" />
+      <feGaussianBlur stdDeviation="2" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sky Canvas -->
+  <rect width="1200" height="170" rx="14" fill="url(#ft-sky-dark)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Distant Stars -->
+  <g fill="#e2e8f0" opacity="0.35">
+    <circle cx="70" cy="25" r="0.8" />
+    <circle cx="130" cy="45" r="1" />
+    <circle cx="210" cy="20" r="0.7" />
+    <circle cx="340" cy="35" r="1.1" />
+    <circle cx="480" cy="18" r="0.8" />
+    <circle cx="560" cy="40" r="0.7" />
+    <circle cx="680" cy="22" r="1" />
+    <circle cx="770" cy="38" r="0.7" />
+    <circle cx="860" cy="15" r="0.9" />
+    <circle cx="920" cy="32" r="0.8" />
+    <circle cx="1120" cy="20" r="1" />
+    <circle cx="1160" cy="45" r="0.7" />
+  </g>
+
+  <!-- Tatooine Binary Sunset (Top Right Horizon) -->
+  <g transform="translate(1040, 52)">
+    <circle cx="0" cy="0" r="28" fill="url(#sun1-glow)" />
+    <circle cx="0" cy="0" r="13" fill="#fef08a" />
+    <circle cx="50" cy="22" r="21" fill="url(#sun2-glow)" />
+    <circle cx="50" cy="22" r="9" fill="#fda4af" />
+  </g>
+
+  <!-- Desert Dunes of Tatooine -->
+  <path d="M 0 170 L 0 138 Q 200 118, 450 133 T 850 126 Q 1020 113, 1200 128 L 1200 170 Z" fill="#090e1c" opacity="0.95" />
+  <path d="M 0 170 L 0 148 Q 300 136, 600 150 T 1200 143 L 1200 170 Z" fill="#04060c" />
+
+  <!-- ========================================== -->
+  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (ROTJ) -->
+  <!-- ========================================== -->
+  <g transform="translate(180, 30)">
+    <!-- 1. The Hilt (Luke Ep. VI Design) -->
+    <!-- Pommel ring & D-ring -->
+    <rect x="0" y="5" width="8" height="12" rx="1.5" fill="#94a3b8" stroke="#475569" stroke-width="0.8" />
+    <circle cx="2.5" cy="11" r="1.5" fill="#334155" />
+    <!-- Grooved / Ribbed black grip body -->
+    <rect x="8" y="6" width="38" height="10" rx="1" fill="#0f172a" stroke="#334155" stroke-width="0.8" />
+    <line x1="14" y1="6" x2="14" y2="16" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="20" y1="6" x2="20" y2="16" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="26" y1="6" x2="26" y2="16" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="32" y1="6" x2="32" y2="16" stroke="#94a3b8" stroke-width="0.8" />
+    <line x1="38" y1="6" x2="38" y2="16" stroke="#94a3b8" stroke-width="0.8" />
+    <!-- Activation Control Box (with brass circuit card) -->
+    <rect x="22" y="2" width="14" height="5" rx="0.5" fill="#b45309" stroke="#d97706" stroke-width="0.6" />
+    <line x1="24" y1="4.5" x2="34" y2="4.5" stroke="#fef08a" stroke-width="0.7" />
+    <!-- Brass / Copper Neck (Iconic Luke feature) -->
+    <rect x="46" y="8" width="12" height="6" rx="0.5" fill="#d97706" stroke="#92400e" stroke-width="0.8" />
+    <!-- Silver Emitter Flare -->
+    <path d="M 58 6 L 68 4 L 70 4 L 70 18 L 68 18 L 58 16 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="0.8" />
+
+    <!-- 2. The Green Plasma Blade (Emerald Kyber Glow) -->
+    <g filter="url(#green-blade-glow-footer)">
+      <!-- Outer Emerald Aura -->
+      <line x1="72" y1="11" x2="800" y2="11" stroke="#10b981" stroke-width="7" stroke-linecap="round" opacity="0.5" />
+      <!-- Middle Neon Green Glow -->
+      <line x1="72" y1="11" x2="800" y2="11" stroke="#22c55e" stroke-width="3.8" stroke-linecap="round" opacity="0.9" />
+      <!-- Superheated Core (White-Hot Plasma) -->
+      <line x1="72" y1="11" x2="799" y2="11" stroke="#f0fdf4" stroke-width="1.6" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- Center Text (Philosophy) -->
+  <g transform="translate(600, 0)">
+    <text x="0" y="80" text-anchor="middle" fill="#22c55e" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="4">
+      &gt; &quot;MAY THE FORCE BE WITH YOU.&quot;
+    </text>
+    <text x="0" y="106" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="1">
+      JEDI ARCHIVES · ARQUITETURA DEFENSIVA POR DESIGN · CONHECIMENTO, RESILIÊNCIA E EQUILÍBRIO
+    </text>
+    <text x="0" y="132" text-anchor="middle" fill="#475569" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2">
+      // TATOOINE HORIZON · LUKE SKYWALKER ARCHIVE NODE 09
+    </text>
+  </g>
+</svg>
