@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-labelledby="title desc">
+  <title id="title">Nícolas Paulo Nasário - Senior AI &amp; Automation Engineer</title>
+  <desc id="desc">Senior AI and Automation Engineer. Autonomous Agents, Mission-Critical RPA, and Resilient Architectures. Rebel Alliance / Jedi Edition.</desc>
+  <defs>
+    <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0b1325" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+    <pattern id="grid-dark" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.06" />
+    </pattern>
+    <linearGradient id="rebel-grad-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.08" />
+    </linearGradient>
+    <linearGradient id="hud-line-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-hud { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .font-mono { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="390" rx="16" fill="url(#bg-grad-dark)" />
+  <rect width="1200" height="390" rx="16" fill="url(#grid-dark)" />
+
+  <!-- Rebel Alliance Starbird Watermark (Right Background) -->
+  <g transform="translate(930, 65) scale(0.78)" fill="url(#rebel-grad-dark)" stroke="#ef4444" stroke-width="1.2" stroke-opacity="0.25">
+    <path d="M7.42,145.986C9.185,99.193,32.899,56.035,76.25,27.516c0.128,0.048,1.251-0.361,0.738,0.61 c-3.434,3.184-65.172,76.114-8.344,133.68c0,0,29.858,28.704,53.011,1.468c0,0,22.847-29.577-0.289-74.413 c0,0-5.856-14.64-26.955-23.721l16.992-18.748c0,0,14.359,6.161,25.478,22.871c0,0,0.593-17.593-12.884-36.34l26.345-29.89 l26.08,29.609c0,0-11.993,16.991-12.876,36.902c0,0,8.191-13.477,25.776-23.151l16.686,18.748c0,0-16.045,5.287-26.794,23.529 c-9.242,16.902-16.357,53.05,0.416,75.223c0,0,18.772,26.618,51.792-1.571c0,0,60.712-54.399-6.226-133.048 c0,0-3.658-3.233,0.449-1.476c29.586,21.54,65.012,49.946,68.67,120.837c-1.444,85.966-59.012,147.334-143.074,147.334 C68.934,295.968,4.95,227.283,7.42,145.986" />
+  </g>
+
+  <!-- Outer HUD Frame -->
+  <rect x="20" y="20" width="1160" height="350" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Cyber Corner Accents -->
+  <path d="M 20 50 L 20 20 L 50 20" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1150 20 L 1180 20 L 1180 50" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 20 340 L 20 370 L 50 370" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 1150 370 L 1180 370 L 1180 340" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Top Telemetry Bar with text-anchor="end" -->
+  <g class="font-mono" font-size="11" letter-spacing="1.5">
+    <circle cx="52" cy="45" r="4" fill="#22c55e" />
+    <text x="65" y="49" fill="#22c55e" font-weight="600">REBEL ARCHIVES ONLINE // SYSTEMS IN EQUILIBRIUM</text>
+    <text x="1140" y="49" text-anchor="end" fill="#64748b" font-weight="500">KYBER CORE PROTOCOLS [NODE: NP-09]</text>
+  </g>
+
+  <!-- HUD Divider Line (Runs seamlessly across the banner) -->
+  <line x1="42" y1="70" x2="1158" y2="70" stroke="#1e293b" stroke-width="1.2" />
+  <line x1="390" y1="70" x2="1158" y2="70" stroke="url(#hud-line-glow)" stroke-width="1.5" />
+
+  <!-- =============================================================== -->
+  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (AUTHENTIC MOVIE RATIO 1:3) -->
+  <!-- Hilt: 80px | Blade: 260px | Total: 340px (Proporção Natural)   -->
+  <!-- =============================================================== -->
+  <g transform="translate(42, 60)">
+    <!-- 1. THE HILT (AUTHENTIC LUKE EP. VI DESIGN - 80px) -->
+    <!-- Pommel ring & D-ring -->
+    <rect x="0" y="3" width="9" height="14" rx="2" fill="#94a3b8" stroke="#475569" stroke-width="1" />
+    <circle cx="3" cy="10" r="2" fill="#1e293b" />
+    <!-- Grooved / Ribbed black grip body -->
+    <rect x="9" y="4" width="40" height="12" rx="1.5" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <!-- Silver Ribbed Rings on Grip -->
+    <line x1="15" y1="4" x2="15" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="21" y1="4" x2="21" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="27" y1="4" x2="27" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="33" y1="4" x2="33" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="39" y1="4" x2="39" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="45" y1="4" x2="45" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <!-- Activation Control Box (Gold/Brass Box with Circuit Plate) -->
+    <rect x="22" y="-1" width="16" height="6" rx="0.8" fill="#b45309" stroke="#d97706" stroke-width="0.8" />
+    <line x1="25" y1="2" x2="35" y2="2" stroke="#fef08a" stroke-width="0.8" />
+    <!-- Brass / Copper Stepped Neck (Luke's trademark feature) -->
+    <rect x="49" y="6" width="14" height="8" rx="0.8" fill="#d97706" stroke="#92400e" stroke-width="1" />
+    <line x1="56" y1="6" x2="56" y2="14" stroke="#f59e0b" stroke-width="0.8" />
+    <!-- Silver Emitter Flare & Bell -->
+    <path d="M 63 4 L 75 2 L 78 2 L 78 18 L 75 18 L 63 16 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="1" />
+    <rect x="78" y="5" width="3" height="10" rx="0.5" fill="#94a3b8" />
+
+    <!-- 2. THE EMERALD KYBER BLADE (REALISTIC 260px LENGTH) -->
+    <!-- Layer 1: Outer Emerald Aura (height: 20px, length: 260px) -->
+    <rect x="80" y="0" width="260" height="20" rx="10" fill="#10b981" fill-opacity="0.35" />
+    
+    <!-- Layer 2: Medium Neon Green Plasma (height: 12px, length: 258px) -->
+    <rect x="80" y="4" width="258" height="12" rx="6" fill="#22c55e" fill-opacity="0.80" />
+    
+    <!-- Layer 3: High-Intensity Kyber Energy Beam (height: 6px, length: 256px) -->
+    <rect x="80" y="7" width="256" height="6" rx="3" fill="#4ade80" fill-opacity="0.95" />
+    
+    <!-- Layer 4: Superheated White-Hot Plasma Core (height: 2.5px, length: 254px) -->
+    <rect x="80" y="8.75" width="254" height="2.5" rx="1.25" fill="#ffffff" fill-opacity="1.0" />
+
+    <!-- 3. EMITTER IGNITION FLARE (Clarão na boca do emissor) -->
+    <ellipse cx="82" cy="10" rx="8" ry="13" fill="#22c55e" fill-opacity="0.75" />
+    <ellipse cx="82" cy="10" rx="4" ry="8" fill="#86efac" fill-opacity="0.9" />
+    <ellipse cx="82" cy="10" rx="2" ry="5" fill="#ffffff" />
+
+    <!-- 4. ENERGETIC ROUNDED TIP (Ponta arredondada exata do sabre) -->
+    <circle cx="340" cy="10" r="7" fill="#10b981" fill-opacity="0.45" />
+    <circle cx="340" cy="10" r="4.5" fill="#22c55e" fill-opacity="0.85" />
+    <circle cx="340" cy="10" r="2" fill="#ffffff" />
+  </g>
+
+  <!-- Center Content -->
+  <!-- Name -->
+  <text class="font-hud" x="60" y="152" fill="#f8fafc" font-size="44" font-weight="900" letter-spacing="3">
+    NÍCOLAS PAULO NASÁRIO
+  </text>
+
+  <!-- Primary Title (AI FIRST) -->
+  <text class="font-hud" x="60" y="202" fill="#38bdf8" font-size="22" font-weight="700" letter-spacing="2">
+    SENIOR AI &amp; AUTOMATION ENGINEER
+  </text>
+
+  <!-- Subtitle -->
+  <text class="font-hud" x="60" y="242" fill="#94a3b8" font-size="15" font-weight="400" letter-spacing="0.5">
+    Autonomous Agentic Systems · Mission-Critical RPA · Resilient Backend Architecture
+  </text>
+
+  <!-- Quote & Philosophy -->
+  <g class="font-mono" font-size="12" fill="#64748b" letter-spacing="1">
+    <text x="60" y="276" fill="#22c55e" font-weight="600">&gt; &quot;In my experience, there is no such thing as luck.&quot;</text>
+    <text x="460" y="276" fill="#64748b">— Sincronização, idempotência e tolerância a falhas por design.</text>
+  </g>
+
+  <!-- Badges / Pill Tags -->
+  <g class="font-mono" font-size="11" font-weight="600" letter-spacing="1">
+    <!-- Tag 1 -->
+    <rect x="60" y="306" width="195" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="76" cy="321" r="3" fill="#38bdf8" />
+    <text x="88" y="326" fill="#cbd5e1">AGENT ORCHESTRATION</text>
+
+    <!-- Tag 2 -->
+    <rect x="270" y="306" width="175" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="286" cy="321" r="3" fill="#38bdf8" />
+    <text x="298" y="326" fill="#cbd5e1">CREWAI / LANGGRAPH</text>
+
+    <!-- Tag 3 -->
+    <rect x="460" y="306" width="180" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="476" cy="321" r="3" fill="#38bdf8" />
+    <text x="488" y="326" fill="#cbd5e1">MISSION-CRITICAL RPA</text>
+
+    <!-- Tag 4 -->
+    <rect x="655" y="306" width="165" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="671" cy="321" r="3" fill="#38bdf8" />
+    <text x="683" y="326" fill="#cbd5e1">MCP &amp; RAG ENGINES</text>
+
+    <!-- Tag 5 -->
+    <rect x="835" y="306" width="205" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="851" cy="321" r="3" fill="#38bdf8" />
+    <text x="863" y="326" fill="#cbd5e1">PYTHON HIGH-CONCURRENCY</text>
+  </g>
+</svg>

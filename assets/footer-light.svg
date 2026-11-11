@@ -38,7 +38,7 @@
   <path d="M 0 170 L 0 148 Q 300 136, 600 150 T 1200 143 L 1200 170 Z" fill="#60a5fa" opacity="0.5" />
 
   <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (ROTJ) -->
-  <g transform="translate(210, 30)">
+  <g transform="translate(430, 32)">
     <rect x="0" y="3" width="9" height="14" rx="2" fill="#64748b" stroke="#334155" stroke-width="1" />
     <circle cx="3" cy="10" r="2" fill="#1e293b" />
     <rect x="9" y="4" width="40" height="12" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
@@ -55,28 +55,29 @@
     <path d="M 63 4 L 75 2 L 78 2 L 78 18 L 75 18 L 63 16 Z" fill="#94a3b8" stroke="#475569" stroke-width="1" />
     <rect x="78" y="5" width="3" height="10" rx="0.5" fill="#64748b" />
 
-    <rect x="80" y="-4" width="700" height="28" rx="14" fill="#059669" fill-opacity="0.25" />
-    <rect x="80" y="1" width="698" height="18" rx="9" fill="#10b981" fill-opacity="0.80" />
-    <rect x="80" y="5" width="696" height="10" rx="5" fill="#34d399" fill-opacity="0.95" />
-    <rect x="80" y="8" width="694" height="4" rx="2" fill="#ecfdf5" fill-opacity="1.0" />
+    <!-- 260px Proportional Blade -->
+    <rect x="80" y="0" width="260" height="20" rx="10" fill="#059669" fill-opacity="0.30" />
+    <rect x="80" y="4" width="258" height="12" rx="6" fill="#10b981" fill-opacity="0.85" />
+    <rect x="80" y="7" width="256" height="6" rx="3" fill="#34d399" fill-opacity="0.95" />
+    <rect x="80" y="8.75" width="254" height="2.5" rx="1.25" fill="#ecfdf5" fill-opacity="1.0" />
 
-    <ellipse cx="82" cy="10" rx="10" ry="16" fill="#10b981" fill-opacity="0.7" />
-    <ellipse cx="82" cy="10" rx="6" ry="11" fill="#6ee7b7" fill-opacity="0.9" />
-    <ellipse cx="82" cy="10" rx="3" ry="6" fill="#ffffff" />
+    <ellipse cx="82" cy="10" rx="8" ry="13" fill="#10b981" fill-opacity="0.75" />
+    <ellipse cx="82" cy="10" rx="4" ry="8" fill="#6ee7b7" fill-opacity="0.9" />
+    <ellipse cx="82" cy="10" rx="2" ry="5" fill="#ffffff" />
 
-    <circle cx="778" cy="10" r="9" fill="#059669" fill-opacity="0.35" />
-    <circle cx="778" cy="10" r="6" fill="#10b981" fill-opacity="0.85" />
-    <circle cx="778" cy="10" r="3" fill="#ffffff" />
+    <circle cx="340" cy="10" r="7" fill="#059669" fill-opacity="0.4" />
+    <circle cx="340" cy="10" r="4.5" fill="#10b981" fill-opacity="0.85" />
+    <circle cx="340" cy="10" r="2" fill="#ffffff" />
   </g>
 
   <g transform="translate(600, 0)">
-    <text x="0" y="86" text-anchor="middle" fill="#047857" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="4">
+    <text x="0" y="90" text-anchor="middle" fill="#047857" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="4">
       &gt; &quot;MAY THE FORCE BE WITH YOU.&quot;
     </text>
-    <text x="0" y="112" text-anchor="middle" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="1">
+    <text x="0" y="115" text-anchor="middle" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="1">
       REBEL ALLIANCE · ARQUITETURA DEFENSIVA POR DESIGN · CONHECIMENTO, RESILIÊNCIA E EQUILÍBRIO
     </text>
-    <text x="0" y="136" text-anchor="middle" fill="#64748b" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2">
+    <text x="0" y="138" text-anchor="middle" fill="#64748b" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2">
       // TATOOINE HORIZON · LUKE SKYWALKER ARCHIVE NODE 09
     </text>
   </g>

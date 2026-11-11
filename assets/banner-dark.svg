@@ -14,11 +14,10 @@
       <stop offset="0%" stop-color="#ef4444" stop-opacity="0.22" />
       <stop offset="100%" stop-color="#dc2626" stop-opacity="0.08" />
     </linearGradient>
-    <linearGradient id="saber-blade-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="5%" stop-color="#86efac" />
-      <stop offset="60%" stop-color="#22c55e" />
-      <stop offset="100%" stop-color="#15803d" />
+    <linearGradient id="hud-line-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.6" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.1" />
     </linearGradient>
   </defs>
 
@@ -31,7 +30,7 @@
   <rect width="1200" height="390" rx="16" fill="url(#bg-grad-dark)" />
   <rect width="1200" height="390" rx="16" fill="url(#grid-dark)" />
 
-  <!-- Rebel Alliance / Jedi Starbird Watermark (Right Background) -->
+  <!-- Rebel Alliance Starbird Watermark (Right Background) -->
   <g transform="translate(930, 65) scale(0.78)" fill="url(#rebel-grad-dark)" stroke="#ef4444" stroke-width="1.2" stroke-opacity="0.25">
     <path d="M7.42,145.986C9.185,99.193,32.899,56.035,76.25,27.516c0.128,0.048,1.251-0.361,0.738,0.61 c-3.434,3.184-65.172,76.114-8.344,133.68c0,0,29.858,28.704,53.011,1.468c0,0,22.847-29.577-0.289-74.413 c0,0-5.856-14.64-26.955-23.721l16.992-18.748c0,0,14.359,6.161,25.478,22.871c0,0,0.593-17.593-12.884-36.34l26.345-29.89 l26.08,29.609c0,0-11.993,16.991-12.876,36.902c0,0,8.191-13.477,25.776-23.151l16.686,18.748c0,0-16.045,5.287-26.794,23.529 c-9.242,16.902-16.357,53.05,0.416,75.223c0,0,18.772,26.618,51.792-1.571c0,0,60.712-54.399-6.226-133.048 c0,0-3.658-3.233,0.449-1.476c29.586,21.54,65.012,49.946,68.67,120.837c-1.444,85.966-59.012,147.334-143.074,147.334 C68.934,295.968,4.95,227.283,7.42,145.986" />
   </g>
@@ -52,11 +51,16 @@
     <text x="1140" y="49" text-anchor="end" fill="#64748b" font-weight="500">KYBER CORE PROTOCOLS [NODE: NP-09]</text>
   </g>
 
+  <!-- HUD Divider Line (Runs seamlessly across the banner) -->
+  <line x1="42" y1="70" x2="1158" y2="70" stroke="#1e293b" stroke-width="1.2" />
+  <line x1="390" y1="70" x2="1158" y2="70" stroke="url(#hud-line-glow)" stroke-width="1.5" />
+
   <!-- =============================================================== -->
-  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (ROTJ EP. VI - REAL GLOW)   -->
+  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (AUTHENTIC MOVIE RATIO 1:3) -->
+  <!-- Hilt: 80px | Blade: 260px | Total: 340px (Proporção Natural)   -->
   <!-- =============================================================== -->
   <g transform="translate(42, 60)">
-    <!-- 1. THE HILT (AUTHENTIC LUKE EP. VI DESIGN) -->
+    <!-- 1. THE HILT (AUTHENTIC LUKE EP. VI DESIGN - 80px) -->
     <!-- Pommel ring & D-ring -->
     <rect x="0" y="3" width="9" height="14" rx="2" fill="#94a3b8" stroke="#475569" stroke-width="1" />
     <circle cx="3" cy="10" r="2" fill="#1e293b" />
@@ -79,28 +83,28 @@
     <path d="M 63 4 L 75 2 L 78 2 L 78 18 L 75 18 L 63 16 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="1" />
     <rect x="78" y="5" width="3" height="10" rx="0.5" fill="#94a3b8" />
 
-    <!-- 2. THE EMERALD KYBER PLASMA BLADE (SOLID MULTI-LAYER GLOW) -->
-    <!-- Layer 1: Massive Outer Emerald Atmosphere (width: 1045px, height: 28px) -->
-    <rect x="80" y="-4" width="1045" height="28" rx="14" fill="#10b981" fill-opacity="0.30" />
+    <!-- 2. THE EMERALD KYBER BLADE (REALISTIC 260px LENGTH) -->
+    <!-- Layer 1: Outer Emerald Aura (height: 20px, length: 260px) -->
+    <rect x="80" y="0" width="260" height="20" rx="10" fill="#10b981" fill-opacity="0.35" />
     
-    <!-- Layer 2: Medium Neon Green Plasma Halo (height: 18px) -->
-    <rect x="80" y="1" width="1043" height="18" rx="9" fill="#22c55e" fill-opacity="0.75" />
+    <!-- Layer 2: Medium Neon Green Plasma (height: 12px, length: 258px) -->
+    <rect x="80" y="4" width="258" height="12" rx="6" fill="#22c55e" fill-opacity="0.80" />
     
-    <!-- Layer 3: High-Intensity Kyber Energy Beam (height: 10px) -->
-    <rect x="80" y="5" width="1041" height="10" rx="5" fill="#4ade80" fill-opacity="0.95" />
+    <!-- Layer 3: High-Intensity Kyber Energy Beam (height: 6px, length: 256px) -->
+    <rect x="80" y="7" width="256" height="6" rx="3" fill="#4ade80" fill-opacity="0.95" />
     
-    <!-- Layer 4: Superheated Blinding White Plasma Core (height: 4px) -->
-    <rect x="80" y="8" width="1038" height="4" rx="2" fill="#ffffff" fill-opacity="1.0" />
+    <!-- Layer 4: Superheated White-Hot Plasma Core (height: 2.5px, length: 254px) -->
+    <rect x="80" y="8.75" width="254" height="2.5" rx="1.25" fill="#ffffff" fill-opacity="1.0" />
 
-    <!-- 3. EMITTER IGNITION FLARE (A explosão de luz na saída do cabo) -->
-    <ellipse cx="82" cy="10" rx="10" ry="16" fill="#22c55e" fill-opacity="0.7" />
-    <ellipse cx="82" cy="10" rx="6" ry="11" fill="#86efac" fill-opacity="0.9" />
-    <ellipse cx="82" cy="10" rx="3" ry="6" fill="#ffffff" />
+    <!-- 3. EMITTER IGNITION FLARE (Clarão na boca do emissor) -->
+    <ellipse cx="82" cy="10" rx="8" ry="13" fill="#22c55e" fill-opacity="0.75" />
+    <ellipse cx="82" cy="10" rx="4" ry="8" fill="#86efac" fill-opacity="0.9" />
+    <ellipse cx="82" cy="10" rx="2" ry="5" fill="#ffffff" />
 
-    <!-- 4. ENERGETIC ROUNDED TIP (Ponta arredondada do sabre no final) -->
-    <circle cx="1122" cy="10" r="9" fill="#10b981" fill-opacity="0.4" />
-    <circle cx="1122" cy="10" r="6" fill="#22c55e" fill-opacity="0.8" />
-    <circle cx="1122" cy="10" r="3" fill="#ffffff" />
+    <!-- 4. ENERGETIC ROUNDED TIP (Ponta arredondada exata do sabre) -->
+    <circle cx="340" cy="10" r="7" fill="#10b981" fill-opacity="0.45" />
+    <circle cx="340" cy="10" r="4.5" fill="#22c55e" fill-opacity="0.85" />
+    <circle cx="340" cy="10" r="2" fill="#ffffff" />
   </g>
 
   <!-- Center Content -->
