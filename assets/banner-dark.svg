@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-labelledby="title desc">
   <title id="title">Nícolas Paulo Nasário - Senior AI &amp; Automation Engineer</title>
-  <desc id="desc">Senior AI and Automation Engineer. Autonomous Agents, Mission-Critical RPA, and Resilient Architectures.</desc>
+  <desc id="desc">Senior AI and Automation Engineer. Autonomous Agents, Mission-Critical RPA, and Resilient Architectures. Jedi Archives Edition.</desc>
   <defs>
     <linearGradient id="bg-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080c14" />
@@ -13,7 +13,7 @@
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
     </linearGradient>
     <pattern id="grid-dark" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.07" />
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.06" />
     </pattern>
     <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur" />
@@ -30,20 +30,34 @@
   <rect width="1200" height="380" rx="16" fill="url(#bg-grad-dark)" />
   <rect width="1200" height="380" rx="16" fill="url(#grid-dark)" />
 
+  <!-- Jedi Order Crest / Kyber Holocron Watermark in Background -->
+  <g transform="translate(1010, 190) scale(0.75)" opacity="0.08" stroke="#38bdf8" fill="none" stroke-width="3">
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="100" stroke-dasharray="10,6" />
+    <circle cx="0" cy="0" r="70" />
+    <!-- Central Blade of Light -->
+    <line x1="0" y1="-115" x2="0" y2="115" stroke-width="4" />
+    <!-- Stylized Jedi Wings -->
+    <path d="M -15 20 C -45 10, -75 -20, -75 -65 C -60 -40, -35 -25, 0 -15 C 35 -25, 60 -40, 75 -65 C 75 -20, 45 10, 15 20 Z" />
+    <path d="M -10 40 C -35 30, -55 10, -60 -15 C -45 5, -25 15, 0 20 C 25 15, 45 5, 60 -15 C 55 10, 35 30, 10 40 Z" />
+    <!-- Sunburst Diamond -->
+    <polygon points="0,-125 8,-105 0,-85 -8,-105" fill="#38bdf8" />
+  </g>
+
   <!-- Outer HUD Frame -->
   <rect x="20" y="20" width="1160" height="340" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5" />
   
-  <!-- Cyber Corner Accents (HUD Brackets) -->
+  <!-- Cyber Corner Accents -->
   <path d="M 20 50 L 20 20 L 50 20" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
   <path d="M 1150 20 L 1180 20 L 1180 50" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
   <path d="M 20 330 L 20 360 L 50 360" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
   <path d="M 1150 360 L 1180 360 L 1180 330" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
 
-  <!-- Top Telemetry Bar -->
+  <!-- Top Telemetry Bar with text-anchor="end" to NEVER overflow -->
   <g class="font-mono" font-size="11" letter-spacing="1.5">
     <circle cx="52" cy="45" r="4" fill="#10b981" filter="url(#glow-filter)" />
     <text x="65" y="49" fill="#10b981" font-weight="600">JEDI ARCHIVES ONLINE // SYSTEMS IN EQUILIBRIUM</text>
-    <text x="820" y="49" fill="#64748b" font-weight="500">JEDI ARCHIVES · KYBER CORE PROTOCOLS [NODE: NP-09]</text>
+    <text x="1140" y="49" text-anchor="end" fill="#64748b" font-weight="500">JEDI ARCHIVES · KYBER CORE [NODE: NP-09]</text>
   </g>
 
   <!-- Divider Line with Kyber Glow -->
@@ -66,7 +80,7 @@
     Autonomous Agentic Systems · Mission-Critical RPA · Resilient Backend Architecture
   </text>
 
-  <!-- Quote Principle (Sophisticated Star Wars) -->
+  <!-- Quote Principle (Obi-Wan Kenobi & Luke Skywalker Heritage) -->
   <g class="font-mono" font-size="12" fill="#64748b" letter-spacing="1">
     <text x="60" y="270" fill="#38bdf8" font-weight="600">&gt; &quot;In my experience, there is no such thing as luck.&quot;</text>
     <text x="460" y="270" fill="#64748b">— Sincronização, idempotência e tolerância a falhas por design.</text>
@@ -74,27 +88,22 @@
 
   <!-- Technical Capability Pills -->
   <g class="font-mono" font-size="11" font-weight="600" letter-spacing="1">
-    <!-- Pill 1 -->
     <rect x="60" y="300" width="195" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
     <circle cx="76" cy="315" r="3" fill="#38bdf8" />
     <text x="88" y="320" fill="#cbd5e1">AGENT ORCHESTRATION</text>
 
-    <!-- Pill 2 -->
     <rect x="270" y="300" width="195" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
     <circle cx="286" cy="315" r="3" fill="#38bdf8" />
     <text x="298" y="320" fill="#cbd5e1">CREWAI / LANGGRAPH</text>
 
-    <!-- Pill 3 -->
     <rect x="480" y="300" width="200" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
     <circle cx="496" cy="315" r="3" fill="#38bdf8" />
     <text x="508" y="320" fill="#cbd5e1">MISSION-CRITICAL RPA</text>
 
-    <!-- Pill 4 -->
     <rect x="695" y="300" width="180" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
     <circle cx="711" cy="315" r="3" fill="#38bdf8" />
     <text x="723" y="320" fill="#cbd5e1">MCP &amp; RAG ENGINES</text>
 
-    <!-- Pill 5 -->
     <rect x="890" y="300" width="220" height="30" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
     <circle cx="906" cy="315" r="3" fill="#38bdf8" />
     <text x="918" y="320" fill="#cbd5e1">PYTHON HIGH-CONCURRENCY</text>

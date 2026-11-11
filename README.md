@@ -14,6 +14,8 @@ Engenheiro de Software e Automação sênior focado na intersecção entre **Int
 
 Atuo projetando e operando sistemas que unem a precisão determinística do código corporativo (APIs, microsserviços, automação fiscal e mensageria) à capacidade cognitiva de agentes autônomos (CrewAI, LangGraph, RAG e MCP). Não construo experimentos isolados: meu foco é colocar agentes e robôs em **operação contínua com usuários reais**, com tolerância a falhas, guardrails defensivos e observabilidade em tempo real.
 
+> *Um Cavaleiro Jedi constrói seu próprio sabre de luz dominando a sintonia do cristal Kyber. Da mesma forma, acredito que a engenharia de software de alto nível exige domínio dos fundamentos: da resiliência de baixo nível e automação crítica à orquestração autônoma de inteligência artificial.*
+
 <details>
 <summary><b>Read this profile in English</b></summary>
 
@@ -22,6 +24,8 @@ Atuo projetando e operando sistemas que unem a precisão determinística do cód
 Senior Software and Automation Engineer working at the intersection of **Agentic AI**, **Mission-Critical RPA**, and **Resilient Python Backend Architectures**.
 
 I design and operate production-grade systems that combine the deterministic rigor of enterprise software (APIs, microservices, tax automation, and messaging) with the cognitive capabilities of autonomous AI agents (CrewAI, LangGraph, RAG, and MCP). I do not build isolated toy demos: my focus is deploying autonomous agents and resilient bots into **continuous production with real users**, enforcing strict fault tolerance, defensive guardrails, and real-time observability.
+
+> *A Jedi constructs their own lightsaber by mastering the tuning of a Kyber crystal. Likewise, high-level software engineering demands mastering foundational mechanics: from low-level resilience and mission-critical automation to autonomous AI orchestration.*
 
 **Core Principles:**
 - **Deterministic Core, Cognitive Edge:** Business-critical logic belongs in deterministic code; LLMs are orchestrated with strict schema validation (Pydantic) and tool contracts.

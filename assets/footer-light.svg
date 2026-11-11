@@ -1,29 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" role="img" aria-labelledby="f-j-tl f-j-dl">
-  <title id="f-j-tl">May the Force be with you</title>
-  <desc id="f-j-dl">Fechamento do perfil inspirado na disciplina dos Arquivos Jedi e Luke Skywalker.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-labelledby="f-l-t f-l-d">
+  <title id="f-l-t">May the Force be with you - Tatooine Binary Sunset</title>
+  <desc id="f-l-d">Os sóis gêmeos de Tatooine e a filosofia de Luke Skywalker e da Ordem Jedi.</desc>
   <defs>
-    <linearGradient id="ft-jedi-light" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="ft-sky-light" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#f0f9ff" />
-      <stop offset="100%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
     </linearGradient>
-    <linearGradient id="kyber-line-light" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0" />
-      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
-    </linearGradient>
+    <radialGradient id="sun1-glow-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffedd5" />
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="sun2-glow-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef2f2" />
+      <stop offset="60%" stop-color="#f43f5e" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#be123c" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="130" rx="14" fill="url(#ft-jedi-light)" stroke="#cbd5e1" stroke-width="1.5" />
+  <rect width="1200" height="150" rx="14" fill="url(#ft-sky-light)" stroke="#cbd5e1" stroke-width="1.5" />
 
-  <line x1="250" y1="22" x2="950" y2="22" stroke="url(#kyber-line-light)" stroke-width="2" />
-  <circle cx="600" cy="22" r="3.5" fill="#0284c7" />
+  <g transform="translate(1010, 52)">
+    <circle cx="0" cy="0" r="28" fill="url(#sun1-glow-l)" />
+    <circle cx="0" cy="0" r="13" fill="#fde047" />
+    <circle cx="52" cy="22" r="22" fill="url(#sun2-glow-l)" />
+    <circle cx="52" cy="22" r="9" fill="#fb7185" />
+  </g>
 
-  <text x="600" y="64" text-anchor="middle" fill="#0284c7" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="4">
-    &gt; &quot;MAY THE FORCE BE WITH YOU.&quot;
-  </text>
+  <path d="M 0 150 L 0 120 Q 200 100, 450 115 T 850 108 Q 1020 95, 1200 110 L 1200 150 Z" fill="#e2e8f0" opacity="0.95" />
+  <path d="M 0 150 L 0 130 Q 300 118, 600 132 T 1200 125 L 1200 150 Z" fill="#cbd5e1" />
 
-  <text x="600" y="94" text-anchor="middle" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" letter-spacing="1.5">
-    JEDI ARCHIVES · ARQUITETURA DEFENSIVA POR DESIGN · CONHECIMENTO, RESILIÊNCIA E EQUILÍBRIO · KYBER NODE 09
-  </text>
+  <g transform="translate(600, 0)">
+    <text x="0" y="58" text-anchor="middle" fill="#0284c7" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="4">
+      &gt; &quot;MAY THE FORCE BE WITH YOU.&quot;
+    </text>
+    <text x="0" y="85" text-anchor="middle" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" letter-spacing="1.5">
+      JEDI ARCHIVES · ARQUITETURA DEFENSIVA POR DESIGN · CONHECIMENTO, RESILIÊNCIA E EQUILÍBRIO
+    </text>
+    <text x="0" y="112" text-anchor="middle" fill="#64748b" font-family="'SF Mono', Consolas, monospace" font-size="10" letter-spacing="2">
+      // TATOOINE HORIZON · LUKE SKYWALKER ARCHIVE NODE 09
+    </text>
+  </g>
 </svg>
