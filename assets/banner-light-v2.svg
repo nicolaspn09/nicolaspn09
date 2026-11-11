@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-labelledby="title-l desc-l">
   <title id="title-l">Nícolas Paulo Nasário - Senior AI &amp; Automation Engineer</title>
-  <desc id="desc-l">Senior AI and Automation Engineer. Autonomous Agents, Mission-Critical RPA, and Resilient Architectures. Jedi Archives Edition.</desc>
+  <desc id="desc-l">Senior AI and Automation Engineer. Autonomous Agents, Mission-Critical RPA, and Resilient Architectures. Rebel Alliance / Jedi Edition.</desc>
   <defs>
     <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
@@ -10,15 +10,10 @@
     <pattern id="grid-light" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#0284c7" stroke-width="0.5" stroke-opacity="0.07" />
     </pattern>
-    <filter id="saber-glow-hero-light" x="-10%" y="-150%" width="120%" height="400%">
-      <feGaussianBlur stdDeviation="3.5" result="glow1" />
-      <feGaussianBlur stdDeviation="1.5" result="glow2" />
-      <feMerge>
-        <feMergeNode in="glow1" />
-        <feMergeNode in="glow2" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="rebel-grad-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.05" />
+    </linearGradient>
   </defs>
 
   <style>
@@ -30,14 +25,9 @@
   <rect width="1200" height="390" rx="16" fill="url(#bg-grad-light)" />
   <rect width="1200" height="390" rx="16" fill="url(#grid-light)" />
 
-  <!-- Jedi Order Crest Watermark -->
-  <g transform="translate(1010, 200) scale(0.75)" opacity="0.06" stroke="#0284c7" fill="none" stroke-width="3">
-    <circle cx="0" cy="0" r="100" stroke-dasharray="10,6" />
-    <circle cx="0" cy="0" r="70" />
-    <line x1="0" y1="-115" x2="0" y2="115" stroke-width="4" />
-    <path d="M -15 20 C -45 10, -75 -20, -75 -65 C -60 -40, -35 -25, 0 -15 C 35 -25, 60 -40, 75 -65 C 75 -20, 45 10, 15 20 Z" />
-    <path d="M -10 40 C -35 30, -55 10, -60 -15 C -45 5, -25 15, 0 20 C 25 15, 45 5, 60 -15 C 55 10, 35 30, 10 40 Z" />
-    <polygon points="0,-125 8,-105 0,-85 -8,-105" fill="#0284c7" />
+  <!-- Rebel Alliance Starbird Watermark (Right Background) -->
+  <g transform="translate(930, 65) scale(0.78)" fill="url(#rebel-grad-light)" stroke="#ef4444" stroke-width="1.2" stroke-opacity="0.20">
+    <path d="M7.42,145.986C9.185,99.193,32.899,56.035,76.25,27.516c0.128,0.048,1.251-0.361,0.738,0.61 c-3.434,3.184-65.172,76.114-8.344,133.68c0,0,29.858,28.704,53.011,1.468c0,0,22.847-29.577-0.289-74.413 c0,0-5.856-14.64-26.955-23.721l16.992-18.748c0,0,14.359,6.161,25.478,22.871c0,0,0.593-17.593-12.884-36.34l26.345-29.89 l26.08,29.609c0,0-11.993,16.991-12.876,36.902c0,0,8.191-13.477,25.776-23.151l16.686,18.748c0,0-16.045,5.287-26.794,23.529 c-9.242,16.902-16.357,53.05,0.416,75.223c0,0,18.772,26.618,51.792-1.571c0,0,60.712-54.399-6.226-133.048 c0,0-3.658-3.233,0.449-1.476c29.586,21.54,65.012,49.946,68.67,120.837c-1.444,85.966-59.012,147.334-143.074,147.334 C68.934,295.968,4.95,227.283,7.42,145.986" />
   </g>
 
   <!-- Outer HUD Frame -->
@@ -52,73 +42,83 @@
   <!-- Top Telemetry Bar with text-anchor="end" -->
   <g class="font-mono" font-size="11" letter-spacing="1.5">
     <circle cx="52" cy="45" r="4" fill="#059669" />
-    <text x="65" y="49" fill="#059669" font-weight="600">JEDI ARCHIVES ONLINE // SYSTEMS IN EQUILIBRIUM</text>
-    <text x="1140" y="49" text-anchor="end" fill="#64748b" font-weight="500">JEDI ARCHIVES · KYBER CORE [NODE: NP-09]</text>
+    <text x="65" y="49" fill="#059669" font-weight="600">REBEL ARCHIVES ONLINE // SYSTEMS IN EQUILIBRIUM</text>
+    <text x="1140" y="49" text-anchor="end" fill="#64748b" font-weight="500">KYBER CORE PROTOCOLS [NODE: NP-09]</text>
   </g>
 
-  <!-- ======================================================== -->
-  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (HERO DIVIDER BEAM)  -->
-  <!-- ======================================================== -->
-  <g transform="translate(45, 60)">
+  <!-- =============================================================== -->
+  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (ROTJ EP. VI - LIGHT MODE)  -->
+  <!-- =============================================================== -->
+  <g transform="translate(42, 60)">
     <!-- Hilt -->
-    <rect x="0" y="4" width="7" height="10" rx="1.5" fill="#64748b" stroke="#334155" stroke-width="0.8" />
-    <rect x="7" y="5" width="34" height="8" rx="1" fill="#1e293b" stroke="#0f172a" stroke-width="0.8" />
-    <line x1="12" y1="5" x2="12" y2="13" stroke="#94a3b8" stroke-width="0.8" />
-    <line x1="17" y1="5" x2="17" y2="13" stroke="#94a3b8" stroke-width="0.8" />
-    <line x1="22" y1="5" x2="22" y2="13" stroke="#94a3b8" stroke-width="0.8" />
-    <line x1="27" y1="5" x2="27" y2="13" stroke="#94a3b8" stroke-width="0.8" />
-    <line x1="32" y1="5" x2="32" y2="13" stroke="#94a3b8" stroke-width="0.8" />
-    <line x1="37" y1="5" x2="37" y2="13" stroke="#94a3b8" stroke-width="0.8" />
-    <rect x="18" y="1" width="13" height="4.5" rx="0.5" fill="#d97706" stroke="#b45309" stroke-width="0.6" />
-    <line x1="20" y1="3" x2="29" y2="3" stroke="#fef08a" stroke-width="0.6" />
-    <rect x="41" y="6.5" width="10" height="5" rx="0.5" fill="#b45309" stroke="#78350f" stroke-width="0.8" />
-    <path d="M 51 5 L 61 3 L 63 3 L 63 15 L 61 15 L 51 13 Z" fill="#94a3b8" stroke="#475569" stroke-width="0.8" />
+    <rect x="0" y="3" width="9" height="14" rx="2" fill="#64748b" stroke="#334155" stroke-width="1" />
+    <circle cx="3" cy="10" r="2" fill="#1e293b" />
+    <rect x="9" y="4" width="40" height="12" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+    <line x1="15" y1="4" x2="15" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="21" y1="4" x2="21" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="27" y1="4" x2="27" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="33" y1="4" x2="33" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="39" y1="4" x2="39" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="45" y1="4" x2="45" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <rect x="22" y="-1" width="16" height="6" rx="0.8" fill="#d97706" stroke="#b45309" stroke-width="0.8" />
+    <line x1="25" y1="2" x2="35" y2="2" stroke="#fef08a" stroke-width="0.8" />
+    <rect x="49" y="6" width="14" height="8" rx="0.8" fill="#b45309" stroke="#78350f" stroke-width="1" />
+    <line x1="56" y1="6" x2="56" y2="14" stroke="#d97706" stroke-width="0.8" />
+    <path d="M 63 4 L 75 2 L 78 2 L 78 18 L 75 18 L 63 16 Z" fill="#94a3b8" stroke="#475569" stroke-width="1" />
+    <rect x="78" y="5" width="3" height="10" rx="0.5" fill="#64748b" />
 
-    <!-- Plasma Blade -->
-    <g filter="url(#saber-glow-hero-light)">
-      <line x1="64" y1="9" x2="1105" y2="9" stroke="#059669" stroke-width="6" stroke-linecap="round" opacity="0.35" />
-      <line x1="64" y1="9" x2="1105" y2="9" stroke="#10b981" stroke-width="3" stroke-linecap="round" opacity="0.9" />
-      <line x1="64" y1="9" x2="1104" y2="9" stroke="#ecfdf5" stroke-width="1.4" stroke-linecap="round" />
-    </g>
+    <!-- Plasma Blade (Solid multi-layer) -->
+    <rect x="80" y="-4" width="1045" height="28" rx="14" fill="#059669" fill-opacity="0.25" />
+    <rect x="80" y="1" width="1043" height="18" rx="9" fill="#10b981" fill-opacity="0.80" />
+    <rect x="80" y="5" width="1041" height="10" rx="5" fill="#34d399" fill-opacity="0.95" />
+    <rect x="80" y="8" width="1038" height="4" rx="2" fill="#ecfdf5" fill-opacity="1.0" />
+
+    <ellipse cx="82" cy="10" rx="10" ry="16" fill="#10b981" fill-opacity="0.7" />
+    <ellipse cx="82" cy="10" rx="6" ry="11" fill="#6ee7b7" fill-opacity="0.9" />
+    <ellipse cx="82" cy="10" rx="3" ry="6" fill="#ffffff" />
+
+    <circle cx="1122" cy="10" r="9" fill="#059669" fill-opacity="0.35" />
+    <circle cx="1122" cy="10" r="6" fill="#10b981" fill-opacity="0.85" />
+    <circle cx="1122" cy="10" r="3" fill="#ffffff" />
   </g>
 
   <!-- Center Content -->
-  <text class="font-hud" x="60" y="150" fill="#0f172a" font-size="44" font-weight="900" letter-spacing="3">
+  <text class="font-hud" x="60" y="152" fill="#0f172a" font-size="44" font-weight="900" letter-spacing="3">
     NÍCOLAS PAULO NASÁRIO
   </text>
 
-  <text class="font-hud" x="60" y="200" fill="#0284c7" font-size="22" font-weight="700" letter-spacing="2">
+  <text class="font-hud" x="60" y="202" fill="#0284c7" font-size="22" font-weight="700" letter-spacing="2">
     SENIOR AI &amp; AUTOMATION ENGINEER
   </text>
 
-  <text class="font-hud" x="60" y="240" fill="#475569" font-size="15" font-weight="400" letter-spacing="0.5">
+  <text class="font-hud" x="60" y="242" fill="#475569" font-size="15" font-weight="400" letter-spacing="0.5">
     Autonomous Agentic Systems · Mission-Critical RPA · Resilient Backend Architecture
   </text>
 
   <g class="font-mono" font-size="12" fill="#64748b" letter-spacing="1">
-    <text x="60" y="275" fill="#059669" font-weight="600">&gt; &quot;In my experience, there is no such thing as luck.&quot;</text>
-    <text x="460" y="275" fill="#64748b">— Sincronização, idempotência e tolerância a falhas por design.</text>
+    <text x="60" y="276" fill="#059669" font-weight="600">&gt; &quot;In my experience, there is no such thing as luck.&quot;</text>
+    <text x="460" y="276" fill="#64748b">— Sincronização, idempotência e tolerância a falhas por design.</text>
   </g>
 
   <g class="font-mono" font-size="11" font-weight="600" letter-spacing="1">
-    <rect x="60" y="305" width="195" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-    <circle cx="76" cy="320" r="3" fill="#0284c7" />
-    <text x="88" y="325" fill="#1e293b">AGENT ORCHESTRATION</text>
+    <rect x="60" y="306" width="195" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="76" cy="321" r="3" fill="#0284c7" />
+    <text x="88" y="326" fill="#1e293b">AGENT ORCHESTRATION</text>
 
-    <rect x="270" y="305" width="175" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-    <circle cx="286" cy="320" r="3" fill="#0284c7" />
-    <text x="298" y="325" fill="#1e293b">CREWAI / LANGGRAPH</text>
+    <rect x="270" y="306" width="175" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="286" cy="321" r="3" fill="#0284c7" />
+    <text x="298" y="326" fill="#1e293b">CREWAI / LANGGRAPH</text>
 
-    <rect x="460" y="305" width="180" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-    <circle cx="476" cy="320" r="3" fill="#0284c7" />
-    <text x="488" y="325" fill="#1e293b">MISSION-CRITICAL RPA</text>
+    <rect x="460" y="306" width="180" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="476" cy="321" r="3" fill="#0284c7" />
+    <text x="488" y="326" fill="#1e293b">MISSION-CRITICAL RPA</text>
 
-    <rect x="655" y="305" width="165" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-    <circle cx="671" cy="320" r="3" fill="#0284c7" />
-    <text x="683" y="325" fill="#1e293b">MCP &amp; RAG ENGINES</text>
+    <rect x="655" y="306" width="165" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="671" cy="321" r="3" fill="#0284c7" />
+    <text x="683" y="326" fill="#1e293b">MCP &amp; RAG ENGINES</text>
 
-    <rect x="835" y="305" width="205" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-    <circle cx="851" cy="320" r="3" fill="#0284c7" />
-    <text x="863" y="325" fill="#1e293b">PYTHON HIGH-CONCURRENCY</text>
+    <rect x="835" y="306" width="205" height="30" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
+    <circle cx="851" cy="321" r="3" fill="#0284c7" />
+    <text x="863" y="326" fill="#1e293b">PYTHON HIGH-CONCURRENCY</text>
   </g>
 </svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-labelledby="f-l-t f-l-d">
+  <title id="f-l-t">May the Force be with you - Luke Skywalker Emerald Lightsaber &amp; Tatooine Binary Sunset</title>
+  <desc id="f-l-d">O sabre de luz verde de Luke Skywalker e os sóis gêmeos de Tatooine com a Aliança Rebelde.</desc>
+  <defs>
+    <linearGradient id="ft-sky-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="50%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <radialGradient id="sun1-glow-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#fbbf24" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="sun2-glow-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f43f5e" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#be123c" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="170" rx="14" fill="url(#ft-sky-light)" stroke="#cbd5e1" stroke-width="1.5" />
+
+  <g transform="translate(80, 20) scale(0.42)" fill="#ef4444" fill-opacity="0.10" stroke="#ef4444" stroke-width="1" stroke-opacity="0.15">
+    <path d="M7.42,145.986C9.185,99.193,32.899,56.035,76.25,27.516c0.128,0.048,1.251-0.361,0.738,0.61 c-3.434,3.184-65.172,76.114-8.344,133.68c0,0,29.858,28.704,53.011,1.468c0,0,22.847-29.577-0.289-74.413 c0,0-5.856-14.64-26.955-23.721l16.992-18.748c0,0,14.359,6.161,25.478,22.871c0,0,0.593-17.593-12.884-36.34l26.345-29.89 l26.08,29.609c0,0-11.993,16.991-12.876,36.902c0,0,8.191-13.477,25.776-23.151l16.686,18.748c0,0-16.045,5.287-26.794,23.529 c-9.242,16.902-16.357,53.05,0.416,75.223c0,0,18.772,26.618,51.792-1.571c0,0,60.712-54.399-6.226-133.048 c0,0-3.658-3.233,0.449-1.476c29.586,21.54,65.012,49.946,68.67,120.837c-1.444,85.966-59.012,147.334-143.074,147.334 C68.934,295.968,4.95,227.283,7.42,145.986" />
+  </g>
+
+  <!-- Tatooine Binary Sunset -->
+  <g transform="translate(1040, 52)">
+    <circle cx="0" cy="0" r="28" fill="url(#sun1-glow-l)" />
+    <circle cx="0" cy="0" r="13" fill="#fef08a" />
+    <circle cx="50" cy="22" r="21" fill="url(#sun2-glow-l)" />
+    <circle cx="50" cy="22" r="9" fill="#fda4af" />
+  </g>
+
+  <!-- Dunes -->
+  <path d="M 0 170 L 0 138 Q 200 118, 450 133 T 850 126 Q 1020 113, 1200 128 L 1200 170 Z" fill="#93c5fd" opacity="0.4" />
+  <path d="M 0 170 L 0 148 Q 300 136, 600 150 T 1200 143 L 1200 170 Z" fill="#60a5fa" opacity="0.5" />
+
+  <!-- LUKE SKYWALKER'S EMERALD LIGHTSABER (ROTJ) -->
+  <g transform="translate(210, 30)">
+    <rect x="0" y="3" width="9" height="14" rx="2" fill="#64748b" stroke="#334155" stroke-width="1" />
+    <circle cx="3" cy="10" r="2" fill="#1e293b" />
+    <rect x="9" y="4" width="40" height="12" rx="1.5" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+    <line x1="15" y1="4" x2="15" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="21" y1="4" x2="21" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="27" y1="4" x2="27" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="33" y1="4" x2="33" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="39" y1="4" x2="39" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <line x1="45" y1="4" x2="45" y2="16" stroke="#94a3b8" stroke-width="1.2" />
+    <rect x="22" y="-1" width="16" height="6" rx="0.8" fill="#d97706" stroke="#b45309" stroke-width="0.8" />
+    <line x1="25" y1="2" x2="35" y2="2" stroke="#fef08a" stroke-width="0.8" />
+    <rect x="49" y="6" width="14" height="8" rx="0.8" fill="#b45309" stroke="#78350f" stroke-width="1" />
+    <line x1="56" y1="6" x2="56" y2="14" stroke="#d97706" stroke-width="0.8" />
+    <path d="M 63 4 L 75 2 L 78 2 L 78 18 L 75 18 L 63 16 Z" fill="#94a3b8" stroke="#475569" stroke-width="1" />
+    <rect x="78" y="5" width="3" height="10" rx="0.5" fill="#64748b" />
+
+    <rect x="80" y="-4" width="700" height="28" rx="14" fill="#059669" fill-opacity="0.25" />
+    <rect x="80" y="1" width="698" height="18" rx="9" fill="#10b981" fill-opacity="0.80" />
+    <rect x="80" y="5" width="696" height="10" rx="5" fill="#34d399" fill-opacity="0.95" />
+    <rect x="80" y="8" width="694" height="4" rx="2" fill="#ecfdf5" fill-opacity="1.0" />
+
+    <ellipse cx="82" cy="10" rx="10" ry="16" fill="#10b981" fill-opacity="0.7" />
+    <ellipse cx="82" cy="10" rx="6" ry="11" fill="#6ee7b7" fill-opacity="0.9" />
+    <ellipse cx="82" cy="10" rx="3" ry="6" fill="#ffffff" />
+
+    <circle cx="778" cy="10" r="9" fill="#059669" fill-opacity="0.35" />
+    <circle cx="778" cy="10" r="6" fill="#10b981" fill-opacity="0.85" />
+    <circle cx="778" cy="10" r="3" fill="#ffffff" />
+  </g>
+
+  <g transform="translate(600, 0)">
+    <text x="0" y="86" text-anchor="middle" fill="#047857" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700" letter-spacing="4">
+      &gt; &quot;MAY THE FORCE BE WITH YOU.&quot;
+    </text>
+    <text x="0" y="112" text-anchor="middle" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="1">
+      REBEL ALLIANCE · ARQUITETURA DEFENSIVA POR DESIGN · CONHECIMENTO, RESILIÊNCIA E EQUILÍBRIO
+    </text>
+    <text x="0" y="136" text-anchor="middle" fill="#64748b" font-family="'SF Mono', Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2">
+      // TATOOINE HORIZON · LUKE SKYWALKER ARCHIVE NODE 09
+    </text>
+  </g>
+</svg>
