@@ -67,11 +67,11 @@ I design and operate production-grade systems that combine the deterministic rig
     </tr>
     <tr>
       <td>
-        <b><a href="https://github.com/nicolaspn09/analise-isencao-reforma-tributaria">Análise Fiscal &amp; Isenção de Impostos</a></b><br>
-        <code>Python</code> <code>OpenAI</code> <code>Oracle ERP</code> <code>Excel</code>
+        <b><a href="https://github.com/nicolaspn09/crm_lodetti">CRM Lodetti &amp; Judicial MCP Gateway</a></b><br>
+        <code>FastAPI</code> <code>PostgreSQL</code> <code>MCP Server</code> <code>Airflow</code> <code>TRF 1-6</code>
       </td>
       <td>
-        Automação analítica para cruzamento de dados fiscais sob a nova legislação tributária. Integração direta com ERP Oracle e planilhas complexas, aplicando engenharia de prompts defensiva para classificação de itens e disparo de relatórios automatizados de auditoria.
+        Plataforma LegalTech e esteira de automação judicial em produção. Orquestração de web crawlers via Airflow nos Tribunais Regionais Federais (TRF1 a TRF6), servidor <b>MCP (Model Context Protocol)</b> customizado para consulta por agentes de IA e portal corporativo em FastAPI com painel de herdeiros e conciliação de honorários.
       </td>
     </tr>
     <tr>
