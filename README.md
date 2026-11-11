@@ -38,7 +38,7 @@ I design and operate production-grade systems that combine the deterministic rig
   <thead>
     <tr>
       <td colspan="2">
-        <b>Fundação Arquitetural:</b> Python 3.11+, FastAPI, PostgreSQL, Redis, Celery e Docker. Orquestração com Hermes Agent, CrewAI e LangGraph. RAG Híbrido em bases regulatórias complexas, mensageria assíncrona com Evolution API (WhatsApp) e guardrails defensivos anti-alucinação.
+        <b>Fundação Arquitetural:</b> Python 3.11+, FastAPI, PostgreSQL, Redis, Celery e Docker. Orquestração com Hermes Agent, CrewAI e LangGraph. RAG Híbrido em bases regulatórias complexas, servidores MCP customizados, mensageria assíncrona com Evolution API e guardrails defensivos.
       </td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@ I design and operate production-grade systems that combine the deterministic rig
         <code>FastAPI</code> <code>PostgreSQL</code> <code>RAG</code> <code>Docker</code> <code>LLMs</code>
       </td>
       <td>
-        Plataforma SaaS full-stack em produção (<a href="https://lecionaai.com.br" target="_blank">lecionaai.com.br</a>) para o ecossistema educacional. Backend em FastAPI com autenticação JWT, integração com LLMs para elaboração automática de planos de aula e avaliações alinhadas à BNCC, além de RAG especializado para suporte a necessidades educacionais inclusivas.
+        Plataforma SaaS full-stack em produção (<a href="https://lecionaai.com.br" target="_blank">lecionaai.com.br</a>) para o ecossistema educacional. Backend em FastAPI com autenticação JWT, integração com LLMs para elaboração de planos de aula e avaliações alinhadas à BNCC, além de RAG especializado para suporte a necessidades inclusivas.
       </td>
     </tr>
     <tr>
@@ -62,16 +62,25 @@ I design and operate production-grade systems that combine the deterministic rig
         <code>RAG Híbrido</code> <code>LCP 214/2025</code> <code>Streamlit</code> <code>Vector DB</code>
       </td>
       <td>
-        Arquitetura RAG de alta fidelidade baseada na regulamentação da LCP 214/2025 e EC 132. Combinação de busca semântica em banco vetorial com guardrails determinísticos para consulta fiscal sem alucinação de alíquotas ou regras tributárias complexas. Possui interface interativa em produção no Streamlit.
+        Arquitetura RAG de alta fidelidade baseada na regulamentação da LCP 214/2025 e EC 132. Combinação de busca semântica em banco vetorial com guardrails determinísticos para consulta fiscal sem alucinação de alíquotas ou regras tributárias complexas. Possui interface interativa no Streamlit.
       </td>
     </tr>
     <tr>
       <td>
-        <b><a href="https://github.com/nicolaspn09/crm_lodetti">CRM Lodetti &amp; Judicial MCP Gateway</a></b><br>
-        <code>FastAPI</code> <code>PostgreSQL</code> <code>MCP Server</code> <code>Airflow</code> <code>TRF 1-6</code>
+        <b><a href="https://github.com/nicolaspn09/crm_lodetti">CRM Lodetti Previdenciário</a></b><br>
+        <code>FastAPI</code> <code>PostgreSQL</code> <code>Docker</code> <code>RBAC</code> <code>Portal Web</code>
       </td>
       <td>
-        Plataforma LegalTech e esteira de automação judicial em produção. Orquestração de web crawlers via Airflow nos Tribunais Regionais Federais (TRF1 a TRF6), servidor <b>MCP (Model Context Protocol)</b> customizado para consulta por agentes de IA e portal corporativo em FastAPI com painel de herdeiros e conciliação de honorários.
+        Plataforma LegalTech corporativa em produção para gestão jurídica previdenciária. Backend em FastAPI com banco PostgreSQL na VPS, painel de herdeiros com legitimidade ativa (Art. 112 da Lei 8.213/91), esteira de atendimento com Magic Link sem senha e portal de parceiros com conciliação de honorários.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><a href="https://github.com/nicolaspn09/crawling-trf">RPA Judicial &amp; Servidor MCP (TRFs)</a></b><br>
+        <code>Airflow</code> <code>MCP Server</code> <code>Python</code> <code>Web Crawling</code> <code>TRF 1-6</code>
+      </td>
+      <td>
+        Esteira de automação e web scraping judicial de alta escala orquestrada via Apache Airflow nos Tribunais Regionais Federais (TRF1 a TRF6). Implementação de servidor <b>MCP (Model Context Protocol)</b> customizado para consultas determinísticas de processos e teses judiciais por agentes autônomos de IA.
       </td>
     </tr>
     <tr>
