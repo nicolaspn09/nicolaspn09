@@ -32,7 +32,7 @@
   <!-- Column 2: Repositórios -->
   <g transform="translate(365, 45)">
     <text class="font-mono" x="0" y="0" fill="#64748b" font-size="11" font-weight="600" letter-spacing="1.5">REPOSITÓRIOS NO AR</text>
-    <text class="font-hud" x="0" y="46" fill="#f8fafc" font-size="44" font-weight="900" letter-spacing="1">111</text>
+    <text class="font-hud" x="0" y="46" fill="#f8fafc" font-size="44" font-weight="900" letter-spacing="1">112</text>
     <text class="font-hud" x="0" y="76" fill="#94a3b8" font-size="12">Soluções de IA, RPA e APIs</text>
   </g>
 
